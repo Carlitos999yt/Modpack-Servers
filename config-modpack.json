@@ -1,0 +1,14 @@
+{
+  "name": "Slimes Adventure",
+  "version": "1.12.8.1",
+  "description": "Modpack oficial de Slimes Adventure sincronizado desde GitHub.",
+  "gameVersion": "1.21.1",
+  "modLoader": "Fabric",
+  "loaderVersion": "0.19.2",
+  "minMem": 2048,
+  "maxMem": 4096,
+  "jvmArgs": "-XX:+UseG1GC -XX:+UnlockExperimentalVMOptions",
+  "wrapperCommand": "",
+  "preLaunchCommand": "",
+  "postExitCommand": ""
+}
