@@ -1,0 +1,24 @@
+[
+  {
+    "id": "Carlitos999yt",
+    "minecraft_name": "Carlitos999yt",
+    "discord_name": "Carlitos#1234",
+    "modpacks": [
+      "coblemon",
+      "slime",
+      "zombie-apocalipsis",
+      "vanilla-plus"
+    ]
+  },
+  {
+    "id": "TESTID123",
+    "minecraft_name": "CarlitosOffline",
+    "discord_name": "",
+    "modpacks": [
+      "coblemon",
+      "slime",
+      "zombie-apocalipsis",
+      "vanilla-plus"
+    ]
+  }
+]
