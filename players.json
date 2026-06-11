@@ -20,5 +20,14 @@
       "zombie-apocalipsis",
       "vanilla-plus"
     ]
+  },
+  {
+    "type": "offline",
+    "discord_name": "Carlitos999yt",
+    "modpacks": [
+      "coblemon"
+    ],
+    "id": "0395D567C91CB3XL0ZL3",
+    "minecraft_name": "No-Premium"
   }
 ]
