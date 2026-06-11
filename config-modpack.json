@@ -1,6 +1,6 @@
 {
   "name": "Slimes Adventure",
-  "version": "1.12.8.1",
+  "version": "1.0.0",
   "description": "Modpack oficial de Slimes Adventure sincronizado desde GitHub.",
   "gameVersion": "1.21.1",
   "modLoader": "Fabric",
@@ -10,5 +10,16 @@
   "jvmArgs": "-XX:+UseG1GC -XX:+UnlockExperimentalVMOptions",
   "wrapperCommand": "",
   "preLaunchCommand": "",
-  "postExitCommand": ""
+  "postExitCommand": "",
+  "hideTitle": false,
+  "hideVersionList": false,
+  "versionListText": "1.0.0 [Official]",
+  "hideIcon": false,
+  "titleColor": "#FFFFFF",
+  "titleFontSize": 44.0,
+  "titleFontFamily": "Minecraft",
+  "hideDescription": false,
+  "hideLoader": false,
+  "loaderText": "Versión 1.0.0",
+  "hideSidebar": false
 }
