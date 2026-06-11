@@ -24,5 +24,18 @@
     "titleColor": "#88FF88",
     "titleFontSize": 42.0,
     "titleFontFamily": "Segoe UI"
+  },
+  {
+    "id": "coblemon",
+    "name": "Cobblemon Modpack [Fabric]",
+    "version": "1.5.2",
+    "description": "Modpack oficial de Cobblemon Modpack [Fabric] sincronizado desde GitHub.",
+    "branch": "coblemon",
+    "gameVersion": "1.20.1",
+    "modLoader": "Fabric",
+    "loaderVersion": "0.15.11",
+    "titleColor": "#33CCFF",
+    "titleFontSize": 44.0,
+    "titleFontFamily": "Segoe UI"
   }
 ]
