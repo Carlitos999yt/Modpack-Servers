@@ -37,5 +37,18 @@
     "titleColor": "#33CCFF",
     "titleFontSize": 44.0,
     "titleFontFamily": "Segoe UI"
+  },
+  {
+    "id": "slime",
+    "name": "Slimes Adventure",
+    "version": "1.12.8.1",
+    "description": "Modpack oficial de Slimes Adventure sincronizado desde GitHub.",
+    "branch": "slime",
+    "gameVersion": "1.21.1",
+    "modLoader": "Fabric",
+    "loaderVersion": "0.19.2",
+    "titleColor": "#FFFFFF",
+    "titleFontSize": 44.0,
+    "titleFontFamily": "Segoe UI"
   }
 ]
