@@ -1,0 +1,12 @@
+{
+  "name": "VANILLA PLUS",
+  "gameVersion": "1.21",
+  "modLoader": "Vanilla",
+  "loaderVersion": "",
+  "minMem": 1024,
+  "maxMem": 3072,
+  "jvmArgs": "-XX:+UseG1GC",
+  "wrapperCommand": "",
+  "preLaunchCommand": "",
+  "postExitCommand": ""
+}
