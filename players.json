@@ -11,17 +11,6 @@
     ]
   },
   {
-    "id": "TESTID123",
-    "minecraft_name": "CarlitosOffline",
-    "discord_name": "",
-    "modpacks": [
-      "coblemon",
-      "slime",
-      "zombie-apocalipsis",
-      "vanilla-plus"
-    ]
-  },
-  {
     "type": "premium",
     "discord_name": "Carlitos#1234",
     "modpacks": [],
@@ -35,6 +24,15 @@
       "coblemon"
     ],
     "id": "0395D567C91CB3XL0ZL3",
+    "minecraft_name": "No-Premium"
+  },
+  {
+    "type": "offline",
+    "discord_name": "",
+    "modpacks": [
+      "coblemon"
+    ],
+    "id": "TESTID123",
     "minecraft_name": "No-Premium"
   }
 ]
