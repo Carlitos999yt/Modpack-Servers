@@ -34,5 +34,14 @@
     ],
     "id": "TESTID123",
     "minecraft_name": "No-Premium"
+  },
+  {
+    "type": "premium",
+    "discord_name": "Carlitos#1234",
+    "modpacks": [
+      "coblemon"
+    ],
+    "id": "carlitos999yt",
+    "minecraft_name": "carlitos999yt"
   }
 ]
