@@ -40,5 +40,26 @@
     "hideLoader": false,
     "hideSidebar": false,
     "loaderText": "Versión 1.0.0"
+  },
+  {
+    "id": "archsafio",
+    "name": "ARCHSAFIO",
+    "version": "1.0.0",
+    "description": "ARCHSAFIO EL MEJOR SERVER",
+    "branch": "archsafio",
+    "gameVersion": "1.20.1",
+    "modLoader": "Forge",
+    "loaderVersion": "47.4.10",
+    "titleColor": "#FFFFFF",
+    "titleFontSize": 44.0,
+    "titleFontFamily": "Minecraft",
+    "hideTitle": false,
+    "hideVersionList": false,
+    "versionListText": "",
+    "hideIcon": false,
+    "hideDescription": false,
+    "hideLoader": false,
+    "loaderText": "",
+    "hideSidebar": false
   }
 ]
