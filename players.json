@@ -26,5 +26,14 @@
     ],
     "id": "Bimox",
     "minecraft_name": "Bimox"
+  },
+  {
+    "type": "offline",
+    "discord_name": "alexa",
+    "modpacks": [
+      "archsafio"
+    ],
+    "id": "52B0756736C558H1T2S1",
+    "minecraft_name": "No-Premium"
   }
 ]
