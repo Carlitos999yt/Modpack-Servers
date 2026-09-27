@@ -1,0 +1,25 @@
+﻿{
+  "biomes": [
+    [
+      {
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "prehistoricfauna:is_jurassic"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "prehistoricfauna:is_cretaceous"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "prehistoricfauna:is_triassic"
+      }
+    ]
+  ]
+}

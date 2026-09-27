@@ -1,0 +1,14 @@
+{
+  "name": "SERVER",
+  "version": "",
+  "description": "Modpack oficial de SERVER sincronizado desde GitHub.",
+  "gameVersion": "1.20.1",
+  "modLoader": "Forge",
+  "loaderVersion": "47.4.10",
+  "minMem": 2048,
+  "maxMem": 4096,
+  "jvmArgs": "-XX:+UseG1GC -XX:+UnlockExperimentalVMOptions",
+  "wrapperCommand": "",
+  "preLaunchCommand": "",
+  "postExitCommand": ""
+}

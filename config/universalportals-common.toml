@@ -1,0 +1,41 @@
+
+[General]
+	#If true, attempting to create a 3rd portal with the same ID will cause an explosion.
+	maxTwoPortals = false
+	#If true, portals can teleport between different dimensions. If false, portals only work within the same dimension.
+	crossDimensionEnabled = true
+	#If true, teleporting through a portal costs XP levels.
+	#Cost scales with distance: 1 level per 100 blocks, minimum 1 level.
+	#Cross-dimension teleports always cost the maximum (30 levels by default).
+	#Players without enough levels cannot teleport.
+	xpCostEnabled = false
+	#If true, the XP cost has no upper cap (default cap is 30 levels).
+	#With the cap disabled, a portal 5000 blocks away costs 50 levels, etc.
+	xpNoLevelLimit = false
+	#XP level cost for cross-dimension teleportation (when xpCostEnabled=true).
+	#Default: 5 levels. Set to 0 to use normal distance-based cost (not recommended
+	#since cross-dimension distances are undefined).
+	#Range: 0 ~ 100
+	xpCrossDimCost = 5
+	#If true, an activation key of any color can copy the ID of a portal with a different color.
+	#This allows portals of different colors to be linked together (e.g. blue portal <-> red portal).
+	#Default: true.
+	crossColorLinkingEnabled = true
+	#(Hub mode only, maxTwoPortals=false) If true, non-player entities (mobs, items) can teleport through portals.
+	entityTeleportInHubEnabled = true
+	#(Hub mode only) If true, non-player entities teleport to a random destination portal. If false, they only teleport between the first two portals sharing the same ID.
+	entityTeleportRandom = false
+	#If true, active portals randomly play the ambient portal sound (like the Nether portal).
+	portalAmbientSoundEnabled = true
+
+[PocketPortal]
+	#If true, the Pocket Portal item is enabled.
+	pocketPortalEnabled = true
+	#Maximum number of uses a fully-charged Pocket Portal has. Each use costs 1 charge; repair with Portal Powder.
+	#Range: 1 ~ 256
+	pocketPortalMaxUses = 8
+
+[PortalVial]
+	#If true, the Portal Vial item is enabled (brewed from water bottle + Portal Powder).
+	portalVialEnabled = true
+

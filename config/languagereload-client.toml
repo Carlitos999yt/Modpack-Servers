@@ -1,0 +1,6 @@
+multilingualItemSearch = true
+fallbacks = ["en_us", "en_us"]
+previousFallbacks = ["en_us"]
+language = "es_mx"
+previousLanguage = "en_us"
+

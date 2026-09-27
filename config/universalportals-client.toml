@@ -1,0 +1,5 @@
+
+[Client]
+	#If true, portal particles are displayed. Client-side setting.
+	portalParticlesEnabled = true
+
