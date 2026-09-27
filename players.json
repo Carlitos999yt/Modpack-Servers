@@ -16,5 +16,14 @@
     ],
     "id": "carlitos999yt",
     "minecraft_name": "carlitos999yt"
+  },
+  {
+    "type": "premium",
+    "discord_name": "bimox",
+    "modpacks": [
+      "archsafio"
+    ],
+    "id": "Bimox",
+    "minecraft_name": "Bimox"
   }
 ]
