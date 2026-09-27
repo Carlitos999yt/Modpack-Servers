@@ -1,7 +1,7 @@
 {
-  "name": "SERVER",
-  "version": "",
-  "description": "Modpack oficial de SERVER sincronizado desde GitHub.",
+  "name": "ARCHSAFIO",
+  "version": "1.0.0",
+  "description": "MUNO DE LA TECNOLOGIA Y DINOSAURIOS",
   "gameVersion": "1.20.1",
   "modLoader": "Forge",
   "loaderVersion": "47.4.10",
@@ -10,5 +10,17 @@
   "jvmArgs": "-XX:+UseG1GC -XX:+UnlockExperimentalVMOptions",
   "wrapperCommand": "",
   "preLaunchCommand": "",
-  "postExitCommand": ""
+  "postExitCommand": "",
+  "hideTitle": false,
+  "hideVersionList": false,
+  "versionListText": "",
+  "hideIcon": false,
+  "titleColor": "#FFFFFF",
+  "titleFontSize": 44.0,
+  "titleFontFamily": "Minecraft",
+  "hideDescription": false,
+  "hideLoader": false,
+  "loaderText": "",
+  "hideSidebar": false,
+  "isPublic": true
 }
