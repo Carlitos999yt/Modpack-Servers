@@ -35,5 +35,14 @@
     ],
     "id": "52B0756736C558H1T2S1",
     "minecraft_name": "No-Premium"
+  },
+  {
+    "type": "offline",
+    "discord_name": "shadow",
+    "modpacks": [
+      "archsafio"
+    ],
+    "id": "65B87D0D9461XGDX52L0",
+    "minecraft_name": "No-Premium"
   }
 ]
