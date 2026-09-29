@@ -11,6 +11,16 @@
   "ae2:power_storage": null,
   "ae2:server_data": null,
   "balm:jade": null,
+  "cookingforblockheads:fridge": null,
+  "cookingforblockheads:milk_jar": null,
+  "cookingforblockheads:oven": null,
+  "cookingforblockheads:preservation_chamber": null,
+  "cookingforblockheads:sink": null,
+  "cookingforblockheads:toaster": null,
+  "corpse:corpse": null,
+  "delightful:crop_progress": null,
+  "delightful:mushroom_colony": null,
+  "delightful:pie_icons": null,
   "framedblocks:framed_item_frame": null,
   "functionalstorage:armory": null,
   "immersiveengineering:multiblock_icon": null,
@@ -69,5 +79,6 @@
   "supplementaries:hat_stand": null,
   "supplementaries:present": null,
   "supplementaries:safe": null,
+  "twilightforest:quest_ram_wool": null,
   "waystones:waystone": null
 }

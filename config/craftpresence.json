@@ -1,0 +1,149 @@
+{
+  "_schemaVersion": 6,
+  "_lastMCVersionId": 763,
+  "generalSettings": {
+    "detectATLauncherInstance": true,
+    "detectCurseManifest": true,
+    "detectMultiMCManifest": true,
+    "detectMCUpdaterInstance": true,
+    "detectTechnicPack": true,
+    "detectModrinthPack": true,
+    "detectBiomeData": true,
+    "detectDimensionData": true,
+    "detectWorldData": true,
+    "clientId": "450485984333660181",
+    "defaultIcon": "grass",
+    "enableJoinRequests": false,
+    "preferredClientLevel": 3,
+    "resetTimeOnInit": false,
+    "autoRegister": false
+  },
+  "biomeSettings": {
+    "fallbackBiomeIcon": "grass",
+    "biomeData": {
+      "default": {
+        "textOverride": "En el bioma {biome.name}"
+      }
+    }
+  },
+  "dimensionSettings": {
+    "fallbackDimensionIcon": "overworld",
+    "dimensionData": {
+      "default": {
+        "textOverride": "Explorando {dimension.name}"
+      }
+    }
+  },
+  "serverSettings": {
+    "fallbackServerIcon": "grass",
+    "fallbackServerName": "ArchSafio 1.20.1",
+    "fallbackServerMotd": "Servidor Oficial ArchSafio",
+    "serverData": {
+      "ArchSafio.kinetic.host": {
+        "textOverride": "Jugando en ArchSafio",
+        "iconOverride": "grass"
+      },
+      "ArchSafio.kinetic.host:25585": {
+        "textOverride": "Jugando en ArchSafio",
+        "iconOverride": "grass"
+      },
+      "default": {
+        "textOverride": "Jugando en ArchSafio"
+      }
+    },
+    "pingRateInterval": 5,
+    "pingRateUnit": "minutes"
+  },
+  "statusMessages": {
+    "mainMenuData": {
+      "textOverride": "En el Menú Principal"
+    },
+    "loadingData": {
+      "textOverride": "Iniciando ArchSafio..."
+    },
+    "lanData": {
+      "textOverride": "Jugando en LAN"
+    },
+    "singleplayerData": {
+      "textOverride": "Jugando en solitario"
+    },
+    "realmData": {
+      "textOverride": "Jugando en ArchSafio"
+    }
+  },
+  "advancedSettings": {
+    "enablePerGui": false,
+    "enablePerItem": false,
+    "enablePerEntity": false,
+    "formatWords": true,
+    "debugMode": false,
+    "verboseMode": false,
+    "refreshRate": 2,
+    "allowPlaceholderPreviews": false,
+    "guiSettings": {
+      "fallbackGuiIcon": "unknown",
+      "guiData": {
+        "default": {
+          "textOverride": "En {screen.name}"
+        }
+      }
+    },
+    "itemMessages": {
+      "default": "Sosteniendo {item.message.holding}"
+    },
+    "entitySettings": {
+      "fallbackEntityIcon": "unknown",
+      "targetData": {
+        "default": {
+          "textOverride": "Viendo a {entity.target.name}"
+        }
+      },
+      "ridingData": {
+        "default": {
+          "textOverride": "Montando a {entity.riding.name}"
+        }
+      }
+    },
+    "allowEndpointIcons": true,
+    "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
+    "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}",
+    "allowDuplicatePackets": false,
+    "maxConnectionAttempts": 10,
+    "enableClassGraph": false,
+    "useClassLoader": false
+  },
+  "accessibilitySettings": {
+    "languageId": "es_es",
+    "stripTranslationColors": false,
+    "stripTranslationFormatting": false,
+    "stripExtraGuiElements": false,
+    "configKeyCode": -1
+  },
+  "displaySettings": {
+    "presenceData": {
+      "enabled": true,
+      "useAsMain": false,
+      "isInstance": false,
+      "activityType": 0,
+      "partyPrivacy": 1,
+      "details": "{getFirst(menu.message, dimension.message)}",
+      "gameState": "{getOrDefault(server.message, 'Jugando ArchSafio')}",
+      "largeImageKey": "grass",
+      "largeImageText": "ArchSafio 1.20.1",
+      "smallImageKey": "{getFirst(dimension.icon, server.icon, 'grass')}",
+      "smallImageText": "{getOrDefault(server.message, 'ArchSafio 1.20.1')}",
+      "startTimestamp": "{data.general.time}",
+      "endTimestamp": ""
+    },
+    "dynamicIcons": {
+      "ArchSafio.kinetic.host": "https://api.mcsrvstat.us/icon/ArchSafio.kinetic.host",
+      "carlitos999yt": "https://mc-heads.net/avatar/62c95a06132b4524a8c530e40b845f69",
+      "default": "grass"
+    },
+    "dynamicVariables": {
+      "default": "ArchSafio",
+      "mods": "{general.mods} Mods",
+      "players": "{server.players.current} / {server.players.max} Jugadores"
+    }
+  }
+}

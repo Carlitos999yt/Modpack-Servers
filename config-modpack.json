@@ -1,6 +1,6 @@
 {
   "name": "ARCHSAFIO",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MUNO DE LA TECNOLOGIA Y DINOSAURIOS",
   "gameVersion": "1.20.1",
   "modLoader": "Forge",
@@ -22,5 +22,6 @@
   "hideLoader": false,
   "loaderText": "",
   "hideSidebar": false,
-  "isPublic": true
+  "isPublic": true,
+  "forceUpdateOptions": false
 }
