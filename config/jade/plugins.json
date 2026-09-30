@@ -107,6 +107,9 @@
   "waystones": {
     "waystone": true
   },
+  "camera": {
+    "image_frame": true
+  },
   "corpse": {
     "corpse": true
   },
@@ -117,5 +120,11 @@
     "preservation_chamber": true,
     "milk_jar": true,
     "toaster": true
+  },
+  "securitycraft": {
+    "showowner": true,
+    "showmodules": true,
+    "info": true,
+    "showcustomname": true
   }
 }

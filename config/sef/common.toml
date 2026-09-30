@@ -1,0 +1,395 @@
+
+[ServerEssentialsForgeModConfig]
+	#  Controls the chat message format
+	#    $prefix is replaced by the user's prefix or nothing if the user has no prefix
+	#    $suffix is replaced by the user's suffix or nothing if the user has no suffix
+	#    $name is replaced by the user's name, or nickname if they have one
+	playerNameFormat = "$prefix$name$suffix"
+	#  Controls the chat message format
+	#    $time is replaced by the timestamp field or nothing if disabled
+	#    $name is replaced by the user's name, or nickname if they have one
+	#    colors can be uses in the formatting string. for a global message color see next section
+	#    $msg is replaced by the username's message (if you use it more then once it WILL break this mod)
+	chatMessageFormat = "$time | $name: $msg"
+	#  Sets the global color of the chat messages
+	#   Choose one of the following:
+	#    AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, BLACK, GOLD, GRAY, BLUE, GREEN,
+	#    DARK_GRAY, DARK_AQUA, DARK_RED, DARK_PURPLE, DARK_GREEN, DARK_BLUE
+	chatMessageColor = "WHITE"
+	#  Timestamp format following the java SimpleDateFormat
+	#    Read more here: https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
+	timestampFormat = "HH:mm"
+	#  Discord bot token for discord integration
+	discordBotToken = ""
+	#  Separator inserted between multiple prefixes/suffixes when combined
+	metaJoinSeparator = " "
+	#  Enables or disables the filling in of timestamps
+	enableTimestamp = true
+	#  Enables or disables FTB essentials nickname integration
+	useFtbEssentials = true
+	#  Enables or disables LuckPerms integration
+	useLuckPerms = true
+	#  Enables or disables markdown styling
+	markdownEnabled = true
+	#  Enables or disables custom tab list information
+	tabList = true
+	#  Enables or disables prefixes&suffixes in the tab list
+	tabListMetadata = true
+	#  Enables or disables nicknames in the tab list
+	tabListNicknames = true
+	#  Enables or disables the /colors command
+	enableColorsCommand = true
+	#  Enables or disables the integrated whois command    (If autoIntegratedNicknames is true, this setting is ignored) 
+	enableWhoisCommand = true
+	#  Enables or disables the integrated nickname command   (If autoIntegratedNicknames is true, this setting is ignored) 
+	enableIntegratedNicknames = false
+	#  Enables or disables discord integration
+	enableDiscordIntegraation = false
+	#  Enables custom tab header/footer rendering server-side
+	enableCustomTabHeaderFooter = false
+	#  Tab header format (placeholders: {server_ip}, {online}, {max})
+	tabHeaderFormat = ""
+	#  Tab footer format (placeholders: {server_ip}, {online}, {max})
+	tabFooterFormat = ""
+	#  When true, enables the integrated nickname-related commands if FTB essentials is not present
+	autoIntegratedNicknames = true
+	#  Maximum allowed nickname length (for integrated nickname commands)
+	#Range: 1 ~ 500
+	maximumNicknameLength = 50
+	#  Minimum allowed nickname length (for integrated nickname commands)
+	#Range: 1 ~ 500
+	minimumNicknameLength = 1
+	#  Maximum number of prefixes to show (weighted order)
+	#Range: 0 ~ 50
+	maxPrefixesDisplayed = 1
+	#  Maximum number of suffixes to show (weighted order)
+	#Range: 0 ~ 50
+	maxSuffixesDisplayed = 1
+	#  Enable scheduled server announcements and announcement commands
+	enableAnnouncements = true
+	#  Interval in seconds between announcements
+	announcementIntervalSeconds = 300
+	#  When true, announcements are chosen randomly; otherwise in order
+	announcementUseRandomOrder = false
+	#  Enable the word filter system (/sef filter commands)
+	enableFilterSystem = true
+	#  Enable the private messaging system (/msg, /r, /tell, etc)
+	enableMessagingSystem = true
+	#  Enable the chat reply system (/ans command, clickable messages, chat logging)
+	enableChatReplies = true
+	#  Maximum length of message summary shown in reply headers (0 = no limit)
+	#Range: 0 ~ 500
+	replySummaryLength = 50
+	#  Enable the /helpop command for players to request help from operators
+	enableHelpOp = true
+	#  Enable the admin chat system (/chat admin)
+	enableAdminChat = true
+	#  Enable the banned items system (/banned commands)
+	enableBannedItems = true
+	#  Enable scanning for banned blocks placed in the world (may affect TPS slightly)
+	enableBannedBlockScanning = true
+	#  Default radius around players to scan for banned blocks (smaller = less TPS impact). Override at runtime with /banned setradius
+	#Range: 1 ~ 20
+	bannedBlockScanRadius = 6
+	#  Default interval in ticks between banned-block sweeps. Override at runtime with /banned setinterval. 20 = 1s, 40 = 2s.
+	#Range: 1 ~ 24000
+	bannedBlockScanInterval = 40
+	#  Message shown to a player when a banned item is confiscated.
+	#  Placeholders: $item, $reason, $by, $remaining.
+	#  Leave empty to use the built-in default.
+	bannedItemRemovedMsg = ""
+	#  Server-wide message format when a banned entry has announce=true and a hit occurs.
+	#  Placeholders: $player, $item, $reason.
+	#  Leave empty to use the built-in default.
+	bannedAnnounceFormat = ""
+	#  Enable the /countdown command for broadcasting timed countdowns
+	enableCountdown = true
+	#  Format for the title shown to players on each countdown beat.
+	#  Placeholders: $message, $time, $colored_time, $color.
+	#  Leave empty to use the built-in default ($message).
+	countdownTitleFormat = ""
+	#  Format for the subtitle shown to players on each countdown beat.
+	#  Placeholders: $message, $time, $colored_time, $color.
+	#  Leave empty to use the built-in default ($colored_time).
+	countdownSubtitleFormat = ""
+	#  Chat-line format used when /countdown's chat_too argument is true.
+	#  Placeholders: $message, $time, $colored_time, $color.
+	#  Leave empty to use the built-in default.
+	countdownChatFormat = ""
+	#  Enable the MOTD system (/sef motd commands)
+	enableMotdSystem = true
+	#  Automatically apply the configured MOTD when the server starts
+	applyMotdOnStartup = true
+
+	#FTB Essentials Mute Integration
+	#  Requires FTB Essentials to be installed.
+	#  When a player is muted via /mute, their chat messages will be blocked by this mod's chat system.
+	[ServerEssentialsForgeModConfig.ftbMuteIntegration]
+		#  Enable checking FTB Essentials mute status to block muted players from chatting
+		enableFtbMuteIntegration = true
+		#  Message shown to the muted player when they try to chat
+		mutedPlayerMessage = "&cYou are muted and cannot send messages."
+		#  When true, muted messages are relayed to online operators so they can see what the muted player tried to say
+		sendMutedMessageToOps = true
+		#  Format for relaying muted messages to operators. Placeholders: $username, $message
+		mutedMessageOpFormat = "&c&lMuted Message &7From $username:&r $message"
+
+	#Persistent Mute System
+	#  /mute and /unmute commands with persistent, tick-based mute tracking.
+	#  Mutes survive player disconnects and server restarts.
+	#  Duration counts in server ticks (stops when server is off).
+	#  Data stored in <world>/serverconfig/sef/mutes.json
+	[ServerEssentialsForgeModConfig.muteSystem]
+		#  Enable the persistent /mute and /unmute commands
+		enableMuteSystem = true
+		#  Message sent to the player when muted. Placeholders: $admin, $reason, $duration
+		muteNotifyPlayerFormat = "&c&l⚠ YOU HAVE BEEN MUTED ⚠\\n&7Reason: &f$reason\\n&7Muted by: &e$admin\\n&7Duration: &e$duration"
+		#  Notification sent to admins when a player is muted. Placeholders: $player, $admin, $reason, $duration
+		muteAdminNotifyFormat = "&e$admin &7has muted &e$player &7for &e$duration&7. Reason: &f$reason"
+		#  Message sent to the player when unmuted. Placeholder: $admin
+		unmuteNotifyPlayerFormat = "&a&lYou have been unmuted by &e$admin&a&l."
+		#  Notification sent to admins when a player is unmuted. Placeholders: $player, $admin
+		unmuteAdminNotifyFormat = "&e$admin &7has unmuted &e$player&7."
+		#  Confirmation message to the admin who muted. Placeholders: $player, $admin, $reason, $duration
+		muteConfirmFormat = "&aMuted &e$player &afor &e$duration&a. Reason: &7$reason"
+		#  Confirmation message to the admin who unmuted. Placeholders: $player, $admin
+		unmuteConfirmFormat = "&aUnmuted &e$player&a."
+		#  Message when trying to mute an already muted player. Placeholder: $player
+		muteAlreadyMutedMsg = "&c$player is already muted."
+		#  Message when trying to unmute a player who isn't muted. Placeholder: $player
+		muteNotMutedMsg = "&c$player is not muted."
+		#  Header for /mutelist. No placeholders.
+		muteListHeaderFormat = "&6━━━━ Currently Muted Players ━━━━"
+		#  Format for each muted player entry. Placeholders: $player, $admin, $reason, $remaining, $duration
+		muteListEntryFormat = "&7- &e$player &7by &e$admin &7| Reason: &f$reason &7| Remaining: &e$remaining &7/ &e$duration"
+		#  Message when no one is currently muted
+		muteListEmptyMsg = "&7No players are currently muted."
+		#  Message shown to a muted player when they try to chat (permanent mute). No placeholders.
+		mutedPlayerChatMsg = "&cYou are muted and cannot send messages."
+		#  Message shown to a muted player when they try to chat (timed mute). Placeholder: $remaining
+		mutedPlayerChatMsgWithRemaining = "&cYou are muted and cannot send messages. &7Time remaining: &e$remaining"
+
+	#InvSee System
+	#  Custom /invsee command with Curios mod support.
+	#  If FTB Essentials is installed and invSeeDisableFtbInvsee is true,
+	#  this mod's /invsee will override FTB's version.
+	[ServerEssentialsForgeModConfig.invSee]
+		#  Enable the custom /invsee command
+		enableInvSee = true
+		#  When true and FTB Essentials is loaded, override FTB's /invsee with ours
+		invSeeDisableFtbInvsee = true
+		#  Title of the InvSee GUI. Placeholder: $player
+		invSeeTitle = "&e$player's Inventory"
+		#  Name shown on the glass pane separator for armor section
+		invSeeArmorLabel = "&9Armor"
+		#  Name shown on the glass pane separator for offhand section
+		invSeeOffhandLabel = "&6Offhand"
+		#  Name shown on the glass pane separator for curios section
+		invSeeCuriosLabel = "&dCurios"
+		#  Name shown on the glass pane separator for main inventory section
+		invSeeMainInvLabel = "&aInventory"
+		#  Name shown on the next page arrow item
+		invSeeNextPageLabel = "&eNext Page >>>"
+		#  Name shown on the previous page arrow item
+		invSeePrevPageLabel = "&e<<< Previous Page"
+		#  When true, players cannot move items in the InvSee GUI (view-only mode)
+		invSeeReadOnly = false
+
+	#Clear Chat System
+	#  /cc and /clearchat commands to clear player chat.
+	[ServerEssentialsForgeModConfig.clearChat]
+		#  Enable the /cc and /clearchat commands
+		enableClearChat = true
+		#  Number of blank lines to send to clear chat
+		#Range: 1 ~ 500
+		clearChatLineCount = 100
+		#  Message shown to admin when clearing a specific player's chat. Placeholder: $player
+		clearChatSuccessMsg = "&aChat cleared for $player."
+		#  Message shown to admin when clearing all non-OP chats. Placeholder: $admin
+		clearChatAllSuccessMsg = "&aChat cleared for all non-OP players by $admin."
+		#  Message shown to the player whose chat was cleared
+		clearChatSelfMsg = "&7Your chat has been cleared by an operator."
+
+	#Sudo System
+	#  /sudo command to force a player to execute a command.
+	[ServerEssentialsForgeModConfig.sudo]
+		#  Enable the /sudo command
+		enableSudo = true
+		#  Message shown to the admin. Placeholders: $player, $command, $admin
+		sudoExecutedMsg = "&aForced $player to execute: &7/$command"
+		#  Message shown to the target player. Placeholders: $admin, $command
+		sudoNotifyMsg = "&c$admin forced you to run: &7/$command"
+
+	#Inventory Lock System
+	#  /invlock command to lock/unlock a player's inventory.
+	[ServerEssentialsForgeModConfig.invLock]
+		#  Enable the /invlock command
+		enableInvLock = true
+		#  Message shown to the player when their inventory is locked. Placeholder: $admin
+		invLockLockedMsg = "&c$admin has locked your inventory."
+		#  Message shown to the player when their inventory is unlocked. Placeholder: $admin
+		invLockUnlockedMsg = "&a$admin has unlocked your inventory."
+		#  Message shown to admin when locking. Placeholder: $player
+		invLockAdminLockMsg = "&eLocked inventory for $player."
+		#  Message shown to admin when unlocking. Placeholder: $player
+		invLockAdminUnlockMsg = "&eUnlocked inventory for $player."
+		#  Message shown when a locked player tries to use their inventory
+		invLockBlockedMsg = "&cYour inventory is locked."
+
+	#Disable Building System
+	#  /disablebuilding command to toggle building restrictions for a player.
+	[ServerEssentialsForgeModConfig.disableBuilding]
+		#  Enable the /disablebuilding and /db commands
+		enableDisableBuilding = true
+		#  Message shown to admin when disabling building. Placeholders: $player, $admin
+		dbEnabledMsg = "&cBuilding disabled for $player by $admin."
+		#  Message shown to admin when re-enabling building. Placeholders: $player, $admin
+		dbDisabledMsg = "&aBuilding re-enabled for $player by $admin."
+		#  Message shown to the player. Placeholders: $status (disabled/enabled), $admin
+		dbPlayerNotifyMsg = "&cYour building privileges have been $status by $admin."
+		#  Message shown when a player with building disabled tries to build
+		dbBlockedMsg = "&cYou are not allowed to build."
+
+	#Check Alts System
+	#  /checkalts command to check alternate accounts by IP.
+	[ServerEssentialsForgeModConfig.checkAlts]
+		#  Enable the /checkalts command
+		enableCheckAlts = true
+		#  Header for alts list. Placeholders: $player, $ip
+		checkAltsHeaderFormat = "&6━━━━ Alts for $player ($ip) ━━━━"
+		#  Format for each alt entry. Placeholders: $name, $uuid, $lastseen
+		checkAltsEntryFormat = "&7- &e$name &7($uuid) Last seen: $lastseen"
+		#  Message when no alts found. Placeholder: $player
+		checkAltsNoAltsMsg = "&7No alternate accounts found for $player."
+
+	#Warn System
+	#  /warn and /warns commands for player warning management.
+	#  Warns persist to JSON and support expiration durations.
+	[ServerEssentialsForgeModConfig.warnSystem]
+		#  Enable the warning system (/warn, /warns commands)
+		enableWarnSystem = true
+		#  Message to admin when warning added. Placeholders: $player, $reason, $admin, $id, $duration
+		warnAddedMsg = "&aWarning #$id added for $player: &7$reason &e(Duration: $duration)"
+		#  Message to admin when warning removed. Placeholders: $player, $id
+		warnRemovedMsg = "&eWarning #$id removed for $player."
+		#  Header for warnings list. Placeholder: $player
+		warnListHeaderFormat = "&6━━━━ Warnings for $player ━━━━"
+		#  Format for each warning entry. Placeholders: $id, $reason, $admin, $date, $expired
+		warnEntryFormat = "&7#$id &f$reason &7(by $admin, $date)$expired"
+		#  Text appended for expired warnings
+		warnExpiredTag = " &c(expired)"
+		#  Message when player has no warnings. Placeholder: $player
+		warnNoWarnsMsg = "&7$player has no warnings."
+		#  Message shown to the warned player. Placeholders: $admin, $reason
+		warnNotifyPlayerMsg = "&c⚠ You have been warned by $admin: &f$reason"
+		#  Play a sound when a player is warned
+		warnPlaySound = true
+
+	#Freeze System
+	#  /freeze command to lock a player in place.
+	#  Frozen players cannot move, look around, jump, mine, break, place, or use commands.
+	#  They CAN still type in chat to respond to the admin.
+	[ServerEssentialsForgeModConfig.freezeSystem]
+		#  Enable the /freeze command
+		enableFreezeSystem = true
+		#  Message sent to the player when they are frozen. Placeholders: $reason, $admin, $duration
+		freezeMessageToPlayer = "&c&l⚠ YOU HAVE BEEN FROZEN ⚠\n&7Reason: &f$reason\n&7Frozen by: &e$admin\n&7Duration: &e$duration\n&7&oPlease respond to the admin in chat."
+		#  Format of the reason displayed. Placeholder: $reason
+		freezeReasonFormat = "&c&lFROZEN &7- &f$reason"
+		#  Periodic reminder message to frozen players. Placeholders: $reason, $admin
+		freezeReminderFormat = "&c&l⚠ You are still frozen! &7Reason: &f$reason &7- Please respond in chat."
+		#  How often (seconds) to remind frozen players (0 = no reminders)
+		#Range: 0 ~ 3600
+		freezeReminderIntervalSeconds = 15
+		#  Notification sent to admins when a player is frozen. Placeholders: $player, $admin, $reason, $duration
+		freezeAdminNotifyFormat = "&e$admin &7has frozen &e$player &7for &e$duration&7. Reason: &f$reason"
+		#  Message sent to the player when unfrozen. Placeholder: $admin
+		unfreezeMessageToPlayer = "&a&lYou have been unfrozen by &e$admin&a&l."
+		#  Notification sent to admins when a player is unfrozen. Placeholders: $player, $admin
+		unfreezeAdminNotifyFormat = "&e$admin &7has unfrozen &e$player&7."
+		#  Message when a frozen player tries to use a command
+		freezeCommandBlockedMsg = "&cYou are frozen and cannot use commands. Please respond in chat."
+		#  Message when a frozen player tries to interact/mine/etc
+		freezeActionBlockedMsg = "&cYou are frozen and cannot do that."
+		#  Play a sound when a player is frozen
+		freezePlaySound = true
+		#  Allow frozen players to chat (so they can respond to the admin)
+		freezeAllowChat = true
+
+	#Message Format Customization
+	#  Available placeholders vary by message type:
+	#  Private Messages: $sender, $receiver, $message
+	#  Reply System: $replier, $original_sender, $summary, $message
+	#  HelpOp: $sender, $message
+	#  Admin Chat: $sender, $message
+	[ServerEssentialsForgeModConfig.messageFormats]
+		#  Format for outgoing private messages. Placeholders: $sender, $receiver, $message
+		msgSentFormat = "&d&lTo &d$receiver&7: &r&7$message"
+		#  Format for incoming private messages. Placeholders: $sender, $receiver, $message
+		msgReceivedFormat = "&d&lFrom &d$sender&7: &r&7$message"
+		#  Format for reply header. Placeholders: $replier, $original_sender, $summary
+		replyHeaderFormat = "    &f&l┌────&r &7Replying to $original_sender&7: &7$summary"
+		#  Format for the reply body line (the replier's message). Placeholders: $replier, $message
+		#  $replier will include the player's rank/prefix/suffix from LuckPerms if available
+		replyBodyFormat = "$replier&7: &r$message"
+		#  Format for HelpOp requests to operators. Placeholders: $sender, $message
+		helpOpRequestFormat = "&l&cHelpOp &fFrom &e$sender&7:&r&7 $message"
+		#  Format for HelpOp replies to players. Placeholders: $message
+		helpOpReplyFormat = "&l&cHelpOp &4OP&f Replied&7:&r&7 $message"
+		#  Format for Admin Chat messages. Placeholders: $sender, $message
+		adminChatFormat = "&4&lAdmin Chat &e$sender&7:&r $message"
+		#  Format for announcement added confirmation. Placeholders: $id, $interval, $message
+		announcementConfirmFormat = "&aAdded announcement: &e$id &7(every $interval)"
+
+	#Sound Notifications
+	[ServerEssentialsForgeModConfig.sounds]
+		#  Play sound when receiving a private message
+		enableMsgSound = true
+		#  Play sound when someone replies to your message
+		enableReplySound = true
+		#  Play sound for HelpOp notifications
+		enableHelpOpSound = true
+		#  Play sound for Admin Chat messages
+		enableAdminChatSound = false
+
+	#System Messages - Customize all feedback messages
+	[ServerEssentialsForgeModConfig.systemMessages]
+		#  Message when admin chat is enabled
+		adminChatEnabledMsg = "&aAdmin chat enabled. &7Your messages will only be seen by operators."
+		#  Message when admin chat is disabled
+		adminChatDisabledMsg = "&cAdmin chat disabled. &7You are now in public chat."
+		#  Message when helpop is sent. No placeholders.
+		helpOpSentMsg = "&aMessage sent to all online operators. If there is no one online make a discord ticket."
+		#  Message when helpop reply is sent. Placeholder: $player
+		helpOpReplySentMsg = "&aReply sent to $player"
+		#  Message when there's no one to reply to
+		noReplyTargetMsg = "&cNo one to reply to."
+		#  Message when target player is offline
+		playerOfflineMsg = "&cThat player is offline."
+		#  Message when reply target message not found
+		messageNotFoundMsg = "&cMessage not found or too old to reply to."
+		#  Message when player lacks permission
+		noPermissionMsg = "&cYou don't have permission to do that."
+
+	#Hover Text - Customize hover tooltips
+	[ServerEssentialsForgeModConfig.hoverText]
+		#  Hover text for click to reply. Placeholder: $player
+		clickToReplyHover = "&eClick to reply"
+		#  Hover text for click to message. Placeholder: $player
+		clickToMessageHover = "&dClick to message $player"
+		#  Hover text for HelpOp reply. Placeholder: $player
+		helpOpReplyHover = "&7Click to reply to $player"
+
+	#Announcement System Formatting
+	[ServerEssentialsForgeModConfig.announcementFormatting]
+		#  Header for text announcement list
+		announcementListHeaderText = "&6━━━━━━━━ Text Announcements ━━━━━━━━"
+		#  Header for command announcement list
+		announcementListHeaderCmd = "&6━━━━━━━━ Command Announcements ━━━━━━━━"
+		#  Header for toggle list
+		toggleListHeader = "&6━━━━━━ Toggleable Announcements ━━━━━━"
+		#  Text shown when toggle is ON
+		toggleOnText = "&a[ON]"
+		#  Text shown when toggle is OFF
+		toggleOffText = "&c[OFF]"
+

@@ -1,0 +1,73 @@
+
+[Misc]
+	#If a sound should be played when a player enters a new stage
+	"Play stage sound" = true
+	#The sound that should be player when a player enters a new stage
+	"Play sound for stage" = "entity.ender_dragon.growl"
+	#The multiplication value that is set once the player enters The Nether (this value increases probability for mobs to get stronger gear)
+	"Nether value" = 1.64
+	#If mobs can set targets on fire if they have a flint and steel/fire charge in their hands
+	"Mobs can set on fire" = true
+	"Mobs use shields" = true
+	"Acid Venom reduces armor durability" = true
+	"Skeleton Commander spawn chance" = 0.01
+	#Starting at what stage do skeleton commanders spawn (set to -1 to disable)
+	"Skeleton Commander spawn stage" = 3.0
+	#The increase in the level of enchantments when at stage 4
+	"Enchantment level" = 1.0
+	"Zombie Juggernaut spawn chance" = 0.01
+	#Starting at what stage do zombie juggernauts spawn (set to -1 to disable)
+	"Zombie Juggernaut spawn stage" = 3.0
+	"Wither Skeleton Trap spawn chance" = 0.04
+	#The ID of the dimension required to enter stage three. By default, this is set to the nether
+	"Stage three requirement" = "minecraft:the_nether"
+	#If the player should have unlocked the previous stage before advancing to the next
+	"Require previous stages before advancing" = false
+
+["Mob Gear"]
+	"Stage 0 gear chance" = 0.2
+	#If gear from previous stages should be allowed to be worn in other stages too
+	"Allow previous gear" = true
+	"Stage 1 gear chance" = 0.09
+	"Stage 2 gear chance" = 0.04
+	#The chance for mobs to have enchanted gear
+	"Enchanted chance" = 0.14
+	"Stage 3 gear chance" = 0.05
+	#The chance for a mob to spawn with a random positive effect
+	"Effect chance" = 0.08
+
+["Mob Behaviour"]
+	#Starting at what stage do spiders put players in cobwebs (set to -1 to disable)
+	"Spider put in cobweb stage" = 1.0
+	"Creepers/Skeletons ride spiders on spawn" = true
+	"Creepers/Skeletons ride spiders on spawn chance" = 0.08
+	#At what stage do mobs start riding spiders
+	"Creepers/Skeletons ride spiders on spawn stage" = 1.0
+	"Creepers seek spiders" = true
+	"Skeletons switch to melee" = true
+	"Creepers disable shields" = true
+	#The stage at which mobs begin calling for help (set to -1 to disable)
+	"Mobs call for help stage" = 2.0
+	#Starting at what stage do spiders apply the Acid Venom effect (set to -1 to disable)
+	"Spiders apply acid venom" = 3.0
+	"Blazes apply fire vulnerability" = true
+	"Magma Cubes set entities on fire" = true
+	#Starting at what stage do endermen summon clones while attacking an entity (set to -1 to disable)
+	"Enderman summons clones" = 4.0
+	#Starting at what stage do slimes spawn poison clouds when they fall (set to -1 to disable)
+	"Slimes spawn poison clouds" = 1.0
+	"Magma Cubes cause fire" = true
+
+[Items]
+	"Cutlass range" = 0.65
+	"Greatsword range" = 0.4
+	"Hammer knockback" = 1.0
+	"GuildedShield knockback resistance" = 0.1
+	"HeavyShield armor toughness" = 4.0
+	"Guilded Helmet health" = 4.0
+	"Guilded Chestplate health" = 4.0
+	"Guilded Leggings speed" = 0.15
+	"Guilded Boots step height" = 0.5
+	"Juggernaut Armor speed" = -0.1
+	"Wither Armor speed" = 0.1
+

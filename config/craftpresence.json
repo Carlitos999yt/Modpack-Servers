@@ -1,5 +1,5 @@
 {
-  "_schemaVersion": 6,
+  "_schemaVersion": 7,
   "_lastMCVersionId": 763,
   "generalSettings": {
     "detectATLauncherInstance": true,
@@ -109,8 +109,7 @@
     "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}",
     "allowDuplicatePackets": false,
     "maxConnectionAttempts": 10,
-    "enableClassGraph": false,
-    "useClassLoader": false
+    "enableClassGraph": false
   },
   "accessibilitySettings": {
     "languageId": "es_es",
@@ -125,23 +124,28 @@
       "useAsMain": false,
       "isInstance": false,
       "activityType": 0,
+      "statusDisplayType": 0,
       "partyPrivacy": 1,
       "details": "{getFirst(menu.message, dimension.message)}",
+      "detailsUrl": "",
       "gameState": "{getOrDefault(server.message, 'Jugando ArchSafio')}",
+      "gameStateUrl": "",
+      "appName": "",
       "largeImageKey": "grass",
       "largeImageText": "ArchSafio 1.20.1",
+      "largeImageUrl": "",
       "smallImageKey": "{getFirst(dimension.icon, server.icon, 'grass')}",
       "smallImageText": "{getOrDefault(server.message, 'ArchSafio 1.20.1')}",
+      "smallImageUrl": "",
       "startTimestamp": "{data.general.time}",
-      "endTimestamp": ""
+      "endTimestamp": "",
+      "buttons": {}
     },
     "dynamicIcons": {
       "ArchSafio.kinetic.host": "https://api.mcsrvstat.us/icon/ArchSafio.kinetic.host",
-      "carlitos999yt": "https://mc-heads.net/avatar/62c95a06132b4524a8c530e40b845f69",
-      "default": "grass"
+      "carlitos999yt": "https://mc-heads.net/avatar/62c95a06132b4524a8c530e40b845f69"
     },
     "dynamicVariables": {
-      "default": "ArchSafio",
       "mods": "{general.mods} Mods",
       "players": "{server.players.current} / {server.players.max} Jugadores"
     }
