@@ -228,6 +228,54 @@
     "size": 1657890
   },
   {
+    "name": "YungsApi-1.20-Forge-4.0.6.jar",
+    "size": 370524
+  },
+  {
+    "name": "YungsBetterDesertTemples-1.20-Forge-3.0.3.jar",
+    "size": 918012
+  },
+  {
+    "name": "YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+    "size": 792381
+  },
+  {
+    "name": "YungsBetterEndIsland-1.20-Forge-2.0.6.jar",
+    "size": 387111
+  },
+  {
+    "name": "YungsBetterJungleTemples-1.20-Forge-2.0.5.jar",
+    "size": 806652
+  },
+  {
+    "name": "YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+    "size": 492998
+  },
+  {
+    "name": "YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar",
+    "size": 619255
+  },
+  {
+    "name": "YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
+    "size": 1033262
+  },
+  {
+    "name": "YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
+    "size": 473564
+  },
+  {
+    "name": "YungsBetterWitchHuts-1.20-Forge-3.0.3.jar",
+    "size": 179190
+  },
+  {
+    "name": "YungsBridges-1.20-Forge-4.0.3.jar",
+    "size": 136236
+  },
+  {
+    "name": "YungsExtras-1.20-Forge-4.0.3.jar",
+    "size": 200341
+  },
+  {
     "name": "[1.20-1.20.1] Comics Bubbles Chat-1.3.4.jar",
     "size": 59047
   },
@@ -314,6 +362,10 @@
   {
     "name": "canary-mc1.20.1-0.3.3.jar",
     "size": 594191
+  },
+  {
+    "name": "cataclysm_betterfortresses-1.0.0.jar",
+    "size": 29869
   },
   {
     "name": "chipped-forge-1.20.1-3.0.7.jar",

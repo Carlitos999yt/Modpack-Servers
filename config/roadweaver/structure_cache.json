@@ -1,0 +1,1821 @@
+{
+  "dimensions": [
+    "alex_caves_dimensions:abyssal_chasm",
+    "alex_caves_dimensions:candy_cavity",
+    "prehistoricfauna:cretaceous",
+    "ad_astra:earth_orbit",
+    "alex_caves_dimensions:forlorn_hollows",
+    "ad_astra:glacio",
+    "ad_astra:glacio_orbit",
+    "prehistoricfauna:jurassic",
+    "alex_caves_dimensions:magnetic_caves",
+    "ad_astra:mars",
+    "ad_astra:mars_orbit",
+    "ad_astra:mercury",
+    "ad_astra:mercury_orbit",
+    "ad_astra:moon",
+    "ad_astra:moon_orbit",
+    "minecraft:overworld",
+    "alex_caves_dimensions:primordial_caves",
+    "minecraft:the_end",
+    "minecraft:the_nether",
+    "alex_caves_dimensions:toxic_caves",
+    "prehistoricfauna:triassic",
+    "twilightforest:twilight_forest",
+    "ad_astra:venus",
+    "ad_astra:venus_orbit"
+  ],
+  "structures": [
+    {
+      "id": "minecraft:ancient_city",
+      "displayName": "Ancient City",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:bastion_remnant",
+      "displayName": "Bastion Remnant",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "minecraft:buried_treasure",
+      "displayName": "Buried Treasure",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:desert_pyramid",
+      "displayName": "Desert Pyramid",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:end_city",
+      "displayName": "End City",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:the_end"
+      ]
+    },
+    {
+      "id": "minecraft:fortress",
+      "displayName": "Fortress",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "minecraft:igloo",
+      "displayName": "Igloo",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:jungle_pyramid",
+      "displayName": "Jungle Pyramid",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:mansion",
+      "displayName": "Mansion",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:mineshaft",
+      "displayName": "Mineshaft",
+      "isVanilla": true,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:mineshaft_mesa",
+      "displayName": "Mineshaft Mesa",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:monument",
+      "displayName": "Monument",
+      "isVanilla": true,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:nether_fossil",
+      "displayName": "Nether Fossil",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "minecraft:ocean_ruin_cold",
+      "displayName": "Ocean Ruin Cold",
+      "isVanilla": true,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:ocean_ruin_warm",
+      "displayName": "Ocean Ruin Warm",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:pillager_outpost",
+      "displayName": "Pillager Outpost",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:ruined_portal",
+      "displayName": "Ruined Portal",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:ruined_portal_desert",
+      "displayName": "Ruined Portal Desert",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:ruined_portal_jungle",
+      "displayName": "Ruined Portal Jungle",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:ruined_portal_mountain",
+      "displayName": "Ruined Portal Mountain",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:ruined_portal_nether",
+      "displayName": "Ruined Portal Nether",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "minecraft:ruined_portal_ocean",
+      "displayName": "Ruined Portal Ocean",
+      "isVanilla": true,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:ruined_portal_swamp",
+      "displayName": "Ruined Portal Swamp",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:shipwreck",
+      "displayName": "Shipwreck",
+      "isVanilla": true,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:shipwreck_beached",
+      "displayName": "Shipwreck Beached",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:stronghold",
+      "displayName": "Stronghold",
+      "isVanilla": true,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:swamp_hut",
+      "displayName": "Swamp Hut",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:trail_ruins",
+      "displayName": "Trail Ruins",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:village_desert",
+      "displayName": "Village Desert",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:village_plains",
+      "displayName": "Village Plains",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:village_savanna",
+      "displayName": "Village Savanna",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:village_snowy",
+      "displayName": "Village Snowy",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:village_taiga",
+      "displayName": "Village Taiga",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "ad_astra:lunar_tower",
+      "displayName": "Lunar Tower",
+      "isVanilla": false,
+      "dimensions": [
+        "ad_astra:moon"
+      ]
+    },
+    {
+      "id": "ad_astra:lunarian_village",
+      "displayName": "Lunarian Village",
+      "isVanilla": false,
+      "dimensions": [
+        "ad_astra:moon"
+      ]
+    },
+    {
+      "id": "ad_astra:mars_temple",
+      "displayName": "Mars Temple",
+      "isVanilla": false,
+      "dimensions": [
+        "ad_astra:mars"
+      ]
+    },
+    {
+      "id": "ad_astra:moon_dungeon",
+      "displayName": "Moon Dungeon",
+      "isVanilla": false,
+      "dimensions": [
+        "ad_astra:moon"
+      ]
+    },
+    {
+      "id": "ad_astra:oil_well",
+      "displayName": "Oil Well",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "ad_astra:pygro_tower",
+      "displayName": "Pygro Tower",
+      "isVanilla": false,
+      "dimensions": [
+        "ad_astra:venus"
+      ]
+    },
+    {
+      "id": "ad_astra:pygro_village",
+      "displayName": "Pygro Village",
+      "isVanilla": false,
+      "dimensions": [
+        "ad_astra:venus"
+      ]
+    },
+    {
+      "id": "ad_astra:venus_bullet",
+      "displayName": "Venus Bullet",
+      "isVanilla": false,
+      "dimensions": [
+        "ad_astra:venus"
+      ]
+    },
+    {
+      "id": "ae2:meteorite",
+      "displayName": "Meteorite",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "alexscaves:abyssal_ruins",
+      "displayName": "Abyssal Ruins",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm"
+      ]
+    },
+    {
+      "id": "alexscaves:acid_pit",
+      "displayName": "Acid Pit",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:toxic_caves"
+      ]
+    },
+    {
+      "id": "alexscaves:cake_cave",
+      "displayName": "Cake Cave",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:candy_cavity"
+      ]
+    },
+    {
+      "id": "alexscaves:dino_bowl",
+      "displayName": "Dino Bowl",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:primordial_caves"
+      ]
+    },
+    {
+      "id": "alexscaves:donut_arch",
+      "displayName": "Donut Arch",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:candy_cavity"
+      ]
+    },
+    {
+      "id": "alexscaves:ferrocave",
+      "displayName": "Ferrocave",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:magnetic_caves"
+      ]
+    },
+    {
+      "id": "alexscaves:forlorn_bridge",
+      "displayName": "Forlorn Bridge",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:forlorn_hollows"
+      ]
+    },
+    {
+      "id": "alexscaves:forlorn_canyon",
+      "displayName": "Forlorn Canyon",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:forlorn_hollows"
+      ]
+    },
+    {
+      "id": "alexscaves:gingerbread_town",
+      "displayName": "Gingerbread Town",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:candy_cavity"
+      ]
+    },
+    {
+      "id": "alexscaves:licowitch_tower",
+      "displayName": "Licowitch Tower",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:candy_cavity"
+      ]
+    },
+    {
+      "id": "alexscaves:ocean_trench",
+      "displayName": "Ocean Trench",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm"
+      ]
+    },
+    {
+      "id": "alexscaves:soda_bottle",
+      "displayName": "Soda Bottle",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:candy_cavity"
+      ]
+    },
+    {
+      "id": "alexscaves:underground_cabin",
+      "displayName": "Underground Cabin",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "alexscaves:volcano",
+      "displayName": "Volcano",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:primordial_caves"
+      ]
+    },
+    {
+      "id": "betterdeserttemples:desert_temple",
+      "displayName": "Desert Temple",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterdungeons:skeleton_dungeon",
+      "displayName": "Skeleton Dungeon",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterdungeons:small_dungeon",
+      "displayName": "Small Dungeon",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterdungeons:small_nether_dungeon",
+      "displayName": "Small Nether Dungeon",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "betterdungeons:spider_dungeon",
+      "displayName": "Spider Dungeon",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterdungeons:zombie_dungeon",
+      "displayName": "Zombie Dungeon",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterfortresses:fortress",
+      "displayName": "Fortress",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "betterjungletemples:jungle_temple",
+      "displayName": "Jungle Temple",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "bettermineshafts:mineshaft_acacia",
+      "displayName": "Mineshaft Acacia",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "bettermineshafts:mineshaft_desert",
+      "displayName": "Mineshaft Desert",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "bettermineshafts:mineshaft_dripstone",
+      "displayName": "Mineshaft Dripstone",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "bettermineshafts:mineshaft_ice",
+      "displayName": "Mineshaft Ice",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "bettermineshafts:mineshaft_jungle",
+      "displayName": "Mineshaft Jungle",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "bettermineshafts:mineshaft_lush",
+      "displayName": "Mineshaft Lush",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "bettermineshafts:mineshaft_mesa",
+      "displayName": "Mineshaft Mesa",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "bettermineshafts:mineshaft_mushroom",
+      "displayName": "Mineshaft Mushroom",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "bettermineshafts:mineshaft_oak",
+      "displayName": "Mineshaft Oak",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "bettermineshafts:mineshaft_overgrown",
+      "displayName": "Mineshaft Overgrown",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "bettermineshafts:mineshaft_red_desert",
+      "displayName": "Mineshaft Red Desert",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "bettermineshafts:mineshaft_spruce",
+      "displayName": "Mineshaft Spruce",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "bettermineshafts:mineshaft_spruce_snowy",
+      "displayName": "Mineshaft Spruce Snowy",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betteroceanmonuments:ocean_monument",
+      "displayName": "Ocean Monument",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterstrongholds:stronghold",
+      "displayName": "Stronghold",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterwitchhuts:witch_circle",
+      "displayName": "Witch Circle",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterwitchhuts:witch_hut",
+      "displayName": "Witch Hut",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "cataclysm:abandoned_spire",
+      "displayName": "Abandoned Spire",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "cataclysm:abandoned_temple",
+      "displayName": "Abandoned Temple",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "cataclysm:abandoned_village",
+      "displayName": "Abandoned Village",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "cataclysm:acropolis",
+      "displayName": "Acropolis",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "cataclysm:amethyst_nest",
+      "displayName": "Amethyst Nest",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "cataclysm:ancient_factory",
+      "displayName": "Ancient Factory",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "cataclysm:burning_arena",
+      "displayName": "Burning Arena",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "cataclysm:cursed_pyramid",
+      "displayName": "Cursed Pyramid",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "cataclysm:desert_occupied_village",
+      "displayName": "Desert Occupied Village",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "cataclysm:desert_site",
+      "displayName": "Desert Site",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "cataclysm:frosted_prison",
+      "displayName": "Frosted Prison",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "cataclysm:ruined_citadel",
+      "displayName": "Ruined Citadel",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_end"
+      ]
+    },
+    {
+      "id": "cataclysm:soul_black_smith",
+      "displayName": "Soul Black Smith",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "cataclysm:sunken_city",
+      "displayName": "Sunken City",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "iceandfire:gorgon_temple",
+      "displayName": "Gorgon Temple",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "iceandfire:graveyard",
+      "displayName": "Graveyard",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "iceandfire:mausoleum",
+      "displayName": "Mausoleum",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "paraglider:nether_horned_statue",
+      "displayName": "Nether Horned Statue",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "paraglider:tarrey_town_goddess_statue",
+      "displayName": "Tarrey Town Goddess Statue",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "paraglider:underground_horned_statue",
+      "displayName": "Underground Horned Statue",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "prehistoricfauna:chinle_hut",
+      "displayName": "Chinle Hut",
+      "isVanilla": false,
+      "dimensions": [
+        "prehistoricfauna:triassic"
+      ]
+    },
+    {
+      "id": "prehistoricfauna:djadochta_hut",
+      "displayName": "Djadochta Hut",
+      "isVanilla": false,
+      "dimensions": [
+        "prehistoricfauna:cretaceous"
+      ]
+    },
+    {
+      "id": "prehistoricfauna:djadochta_ruined_settlement",
+      "displayName": "Djadochta Ruined Settlement",
+      "isVanilla": false,
+      "dimensions": [
+        "prehistoricfauna:cretaceous"
+      ]
+    },
+    {
+      "id": "prehistoricfauna:geologist_camp",
+      "displayName": "Geologist Camp",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "prehistoricfauna:hell_creek_hut",
+      "displayName": "Hell Creek Hut",
+      "isVanilla": false,
+      "dimensions": [
+        "prehistoricfauna:cretaceous"
+      ]
+    },
+    {
+      "id": "prehistoricfauna:hell_creek_ruined_settlement",
+      "displayName": "Hell Creek Ruined Settlement",
+      "isVanilla": false,
+      "dimensions": [
+        "prehistoricfauna:cretaceous"
+      ]
+    },
+    {
+      "id": "prehistoricfauna:ischigualasto_hut",
+      "displayName": "Ischigualasto Hut",
+      "isVanilla": false,
+      "dimensions": [
+        "prehistoricfauna:triassic"
+      ]
+    },
+    {
+      "id": "prehistoricfauna:kayenta_hut",
+      "displayName": "Kayenta Hut",
+      "isVanilla": false,
+      "dimensions": [
+        "prehistoricfauna:jurassic"
+      ]
+    },
+    {
+      "id": "prehistoricfauna:morrison_hut",
+      "displayName": "Morrison Hut",
+      "isVanilla": false,
+      "dimensions": [
+        "prehistoricfauna:jurassic"
+      ]
+    },
+    {
+      "id": "prehistoricfauna:portal_chamber",
+      "displayName": "Portal Chamber",
+      "isVanilla": false,
+      "dimensions": [
+        "prehistoricfauna:jurassic",
+        "prehistoricfauna:triassic",
+        "minecraft:overworld",
+        "prehistoricfauna:cretaceous"
+      ]
+    },
+    {
+      "id": "prehistoricfauna:time_temple",
+      "displayName": "Time Temple",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "prehistoricfauna:yixian_hut",
+      "displayName": "Yixian Hut",
+      "isVanilla": false,
+      "dimensions": [
+        "prehistoricfauna:cretaceous"
+      ]
+    },
+    {
+      "id": "prehistoricfauna:yixian_ruined_settlement",
+      "displayName": "Yixian Ruined Settlement",
+      "isVanilla": false,
+      "dimensions": [
+        "prehistoricfauna:cretaceous"
+      ]
+    },
+    {
+      "id": "roadweaver:bridge_bridge_0",
+      "displayName": "Bridge Bridge 0",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:bridge_bridge_1",
+      "displayName": "Bridge Bridge 1",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:roadside_bench",
+      "displayName": "Roadside Bench",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:roadside_campfire",
+      "displayName": "Roadside Campfire",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:roadside_campsite_1",
+      "displayName": "Roadside Campsite 1",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:roadside_campsite_2",
+      "displayName": "Roadside Campsite 2",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:roadside_campsite_3",
+      "displayName": "Roadside Campsite 3",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:roadside_grave_easter_egg",
+      "displayName": "Roadside Grave Easter Egg",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:roadside_grave_fogg05",
+      "displayName": "Roadside Grave Fogg05",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:roadside_grave_magic_muggle",
+      "displayName": "Roadside Grave Magic Muggle",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:roadside_grave_notch",
+      "displayName": "Roadside Grave Notch",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:roadside_grave_technoblade",
+      "displayName": "Roadside Grave Technoblade",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:roadside_maid_house",
+      "displayName": "Roadside Maid House",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:roadside_sakura_coffee_house",
+      "displayName": "Roadside Sakura Coffee House",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:spawn_cabin",
+      "displayName": "Spawn Cabin",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:stone_bridge_shiqiao",
+      "displayName": "Stone Bridge Shiqiao",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:wood_bridge_hongshu",
+      "displayName": "Wood Bridge Hongshu",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "roadweaver:wood_bridge_huamu",
+      "displayName": "Wood Bridge Huamu",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "roadweaver:wood_bridge_jinhehuan",
+      "displayName": "Wood Bridge Jinhehuan",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:wood_bridge_shensexiangmu",
+      "displayName": "Wood Bridge Shensexiangmu",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:wood_bridge_yinghuamu",
+      "displayName": "Wood Bridge Yinghuamu",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "roadweaver:wood_bridge_zhuzi",
+      "displayName": "Wood Bridge Zhuzi",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "supplementaries:way_sign",
+      "displayName": "Way Sign",
+      "isVanilla": false,
+      "dimensions": [
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "twilightforest:aurora_palace",
+      "displayName": "Aurora Palace",
+      "isVanilla": false,
+      "dimensions": [
+        "twilightforest:twilight_forest"
+      ]
+    },
+    {
+      "id": "twilightforest:dark_tower",
+      "displayName": "Dark Tower",
+      "isVanilla": false,
+      "dimensions": [
+        "twilightforest:twilight_forest"
+      ]
+    },
+    {
+      "id": "twilightforest:final_castle",
+      "displayName": "Final Castle",
+      "isVanilla": false,
+      "dimensions": [
+        "twilightforest:twilight_forest"
+      ]
+    },
+    {
+      "id": "twilightforest:hedge_maze",
+      "displayName": "Hedge Maze",
+      "isVanilla": false,
+      "dimensions": [
+        "twilightforest:twilight_forest"
+      ]
+    },
+    {
+      "id": "twilightforest:hydra_lair",
+      "displayName": "Hydra Lair",
+      "isVanilla": false,
+      "dimensions": [
+        "twilightforest:twilight_forest"
+      ]
+    },
+    {
+      "id": "twilightforest:knight_stronghold",
+      "displayName": "Knight Stronghold",
+      "isVanilla": false,
+      "dimensions": [
+        "twilightforest:twilight_forest"
+      ]
+    },
+    {
+      "id": "twilightforest:labyrinth",
+      "displayName": "Labyrinth",
+      "isVanilla": false,
+      "dimensions": [
+        "twilightforest:twilight_forest"
+      ]
+    },
+    {
+      "id": "twilightforest:large_hollow_hill",
+      "displayName": "Large Hollow Hill",
+      "isVanilla": false,
+      "dimensions": [
+        "twilightforest:twilight_forest"
+      ]
+    },
+    {
+      "id": "twilightforest:lich_tower",
+      "displayName": "Lich Tower",
+      "isVanilla": false,
+      "dimensions": [
+        "twilightforest:twilight_forest"
+      ]
+    },
+    {
+      "id": "twilightforest:medium_hollow_hill",
+      "displayName": "Medium Hollow Hill",
+      "isVanilla": false,
+      "dimensions": [
+        "twilightforest:twilight_forest"
+      ]
+    },
+    {
+      "id": "twilightforest:mushroom_tower",
+      "displayName": "Mushroom Tower",
+      "isVanilla": false,
+      "dimensions": [
+        "twilightforest:twilight_forest"
+      ]
+    },
+    {
+      "id": "twilightforest:naga_courtyard",
+      "displayName": "Naga Courtyard",
+      "isVanilla": false,
+      "dimensions": [
+        "twilightforest:twilight_forest"
+      ]
+    },
+    {
+      "id": "twilightforest:quest_grove",
+      "displayName": "Quest Grove",
+      "isVanilla": false,
+      "dimensions": [
+        "twilightforest:twilight_forest"
+      ]
+    },
+    {
+      "id": "twilightforest:small_hollow_hill",
+      "displayName": "Small Hollow Hill",
+      "isVanilla": false,
+      "dimensions": [
+        "twilightforest:twilight_forest"
+      ]
+    },
+    {
+      "id": "twilightforest:troll_cave",
+      "displayName": "Troll Cave",
+      "isVanilla": false,
+      "dimensions": [
+        "twilightforest:twilight_forest"
+      ]
+    },
+    {
+      "id": "twilightforest:yeti_cave",
+      "displayName": "Yeti Cave",
+      "isVanilla": false,
+      "dimensions": [
+        "twilightforest:twilight_forest"
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "tagId": "minecraft:ancient_city",
+      "displayName": "#Ancient City",
+      "structureIds": [
+        "minecraft:ancient_city"
+      ]
+    },
+    {
+      "tagId": "minecraft:bastion_remnant",
+      "displayName": "#Bastion Remnant",
+      "structureIds": [
+        "minecraft:bastion_remnant"
+      ]
+    },
+    {
+      "tagId": "minecraft:cats_spawn_as_black",
+      "displayName": "#Cats Spawn As Black",
+      "structureIds": [
+        "minecraft:swamp_hut",
+        "betterwitchhuts:witch_circle",
+        "betterwitchhuts:witch_hut"
+      ]
+    },
+    {
+      "tagId": "minecraft:cats_spawn_in",
+      "displayName": "#Cats Spawn In",
+      "structureIds": [
+        "minecraft:swamp_hut",
+        "betterwitchhuts:witch_circle",
+        "betterwitchhuts:witch_hut"
+      ]
+    },
+    {
+      "tagId": "minecraft:desert_pyramid",
+      "displayName": "#Desert Pyramid",
+      "structureIds": [
+        "minecraft:desert_pyramid"
+      ]
+    },
+    {
+      "tagId": "minecraft:dolphin_located",
+      "displayName": "#Dolphin Located",
+      "structureIds": [
+        "minecraft:ocean_ruin_cold",
+        "minecraft:ocean_ruin_warm",
+        "minecraft:shipwreck",
+        "minecraft:shipwreck_beached"
+      ]
+    },
+    {
+      "tagId": "minecraft:end_city",
+      "displayName": "#End City",
+      "structureIds": [
+        "minecraft:end_city"
+      ]
+    },
+    {
+      "tagId": "minecraft:eye_of_ender_located",
+      "displayName": "#Eye Of Ender Located",
+      "structureIds": [
+        "minecraft:stronghold",
+        "betterstrongholds:stronghold"
+      ]
+    },
+    {
+      "tagId": "minecraft:fortress",
+      "displayName": "#Fortress",
+      "structureIds": [
+        "minecraft:fortress"
+      ]
+    },
+    {
+      "tagId": "minecraft:igloo",
+      "displayName": "#Igloo",
+      "structureIds": [
+        "minecraft:igloo"
+      ]
+    },
+    {
+      "tagId": "minecraft:jungle_pyramid",
+      "displayName": "#Jungle Pyramid",
+      "structureIds": [
+        "minecraft:jungle_pyramid"
+      ]
+    },
+    {
+      "tagId": "minecraft:mineshaft",
+      "displayName": "#Mineshaft",
+      "structureIds": [
+        "minecraft:mineshaft",
+        "minecraft:mineshaft_mesa",
+        "bettermineshafts:mineshaft_acacia",
+        "bettermineshafts:mineshaft_desert",
+        "bettermineshafts:mineshaft_dripstone",
+        "bettermineshafts:mineshaft_ice",
+        "bettermineshafts:mineshaft_jungle",
+        "bettermineshafts:mineshaft_lush",
+        "bettermineshafts:mineshaft_mesa",
+        "bettermineshafts:mineshaft_mushroom",
+        "bettermineshafts:mineshaft_oak",
+        "bettermineshafts:mineshaft_overgrown",
+        "bettermineshafts:mineshaft_red_desert",
+        "bettermineshafts:mineshaft_spruce",
+        "bettermineshafts:mineshaft_spruce_snowy"
+      ]
+    },
+    {
+      "tagId": "minecraft:ocean_ruin",
+      "displayName": "#Ocean Ruin",
+      "structureIds": [
+        "minecraft:ocean_ruin_cold",
+        "minecraft:ocean_ruin_warm"
+      ]
+    },
+    {
+      "tagId": "minecraft:on_ocean_explorer_maps",
+      "displayName": "#On Ocean Explorer Maps",
+      "structureIds": [
+        "minecraft:monument",
+        "betteroceanmonuments:ocean_monument"
+      ]
+    },
+    {
+      "tagId": "minecraft:on_treasure_maps",
+      "displayName": "#On Treasure Maps",
+      "structureIds": [
+        "minecraft:buried_treasure"
+      ]
+    },
+    {
+      "tagId": "minecraft:on_woodland_explorer_maps",
+      "displayName": "#On Woodland Explorer Maps",
+      "structureIds": [
+        "minecraft:mansion"
+      ]
+    },
+    {
+      "tagId": "minecraft:pillager_outpost",
+      "displayName": "#Pillager Outpost",
+      "structureIds": [
+        "minecraft:pillager_outpost"
+      ]
+    },
+    {
+      "tagId": "minecraft:ruined_portal",
+      "displayName": "#Ruined Portal",
+      "structureIds": [
+        "minecraft:ruined_portal",
+        "minecraft:ruined_portal_desert",
+        "minecraft:ruined_portal_jungle",
+        "minecraft:ruined_portal_mountain",
+        "minecraft:ruined_portal_nether",
+        "minecraft:ruined_portal_ocean",
+        "minecraft:ruined_portal_swamp"
+      ]
+    },
+    {
+      "tagId": "minecraft:shipwreck",
+      "displayName": "#Shipwreck",
+      "structureIds": [
+        "minecraft:shipwreck",
+        "minecraft:shipwreck_beached"
+      ]
+    },
+    {
+      "tagId": "minecraft:swamp_hut",
+      "displayName": "#Swamp Hut",
+      "structureIds": [
+        "minecraft:swamp_hut"
+      ]
+    },
+    {
+      "tagId": "minecraft:village",
+      "displayName": "#Village",
+      "structureIds": [
+        "minecraft:village_desert",
+        "minecraft:village_plains",
+        "minecraft:village_savanna",
+        "minecraft:village_snowy",
+        "minecraft:village_taiga"
+      ]
+    },
+    {
+      "tagId": "amendments:add_potion_cauldron",
+      "displayName": "#Add Potion Cauldron",
+      "structureIds": [
+        "minecraft:swamp_hut",
+        "betterwitchhuts:witch_hut"
+      ]
+    },
+    {
+      "tagId": "supplementaries:adventure_map_destinations",
+      "displayName": "#Adventure Map Destinations",
+      "structureIds": [
+        "minecraft:bastion_remnant",
+        "minecraft:desert_pyramid",
+        "minecraft:end_city",
+        "minecraft:igloo",
+        "minecraft:jungle_pyramid",
+        "minecraft:mineshaft",
+        "minecraft:mineshaft_mesa",
+        "minecraft:ocean_ruin_cold",
+        "minecraft:ocean_ruin_warm",
+        "minecraft:pillager_outpost",
+        "minecraft:ruined_portal",
+        "minecraft:ruined_portal_desert",
+        "minecraft:ruined_portal_jungle",
+        "minecraft:ruined_portal_mountain",
+        "minecraft:ruined_portal_nether",
+        "minecraft:ruined_portal_ocean",
+        "minecraft:ruined_portal_swamp",
+        "minecraft:shipwreck",
+        "minecraft:shipwreck_beached",
+        "minecraft:swamp_hut",
+        "minecraft:village_desert",
+        "minecraft:village_plains",
+        "minecraft:village_savanna",
+        "minecraft:village_snowy",
+        "minecraft:village_taiga",
+        "bettermineshafts:mineshaft_acacia",
+        "bettermineshafts:mineshaft_desert",
+        "bettermineshafts:mineshaft_dripstone",
+        "bettermineshafts:mineshaft_ice",
+        "bettermineshafts:mineshaft_jungle",
+        "bettermineshafts:mineshaft_lush",
+        "bettermineshafts:mineshaft_mesa",
+        "bettermineshafts:mineshaft_mushroom",
+        "bettermineshafts:mineshaft_oak",
+        "bettermineshafts:mineshaft_overgrown",
+        "bettermineshafts:mineshaft_red_desert",
+        "bettermineshafts:mineshaft_spruce",
+        "bettermineshafts:mineshaft_spruce_snowy"
+      ]
+    },
+    {
+      "tagId": "betterdeserttemples:applies_mining_fatigue",
+      "displayName": "#Applies Mining Fatigue",
+      "structureIds": [
+        "betterdeserttemples:desert_temple"
+      ]
+    },
+    {
+      "tagId": "cataclysm:berserker_spawn",
+      "displayName": "#Berserker Spawn",
+      "structureIds": [
+        "minecraft:fortress",
+        "betterfortresses:fortress"
+      ]
+    },
+    {
+      "tagId": "betterdeserttemples:better_desert_temples",
+      "displayName": "#Better Desert Temples",
+      "structureIds": [
+        "betterdeserttemples:desert_temple"
+      ]
+    },
+    {
+      "tagId": "betterdungeons:better_dungeons",
+      "displayName": "#Better Dungeons",
+      "structureIds": [
+        "betterdungeons:skeleton_dungeon",
+        "betterdungeons:small_dungeon",
+        "betterdungeons:small_nether_dungeon",
+        "betterdungeons:spider_dungeon",
+        "betterdungeons:zombie_dungeon"
+      ]
+    },
+    {
+      "tagId": "betterfortresses:better_fortresses",
+      "displayName": "#Better Fortresses",
+      "structureIds": [
+        "betterfortresses:fortress"
+      ]
+    },
+    {
+      "tagId": "betterjungletemples:better_jungle_temples",
+      "displayName": "#Better Jungle Temples",
+      "structureIds": [
+        "betterjungletemples:jungle_temple"
+      ]
+    },
+    {
+      "tagId": "bettermineshafts:better_mineshafts",
+      "displayName": "#Better Mineshafts",
+      "structureIds": [
+        "bettermineshafts:mineshaft_acacia",
+        "bettermineshafts:mineshaft_desert",
+        "bettermineshafts:mineshaft_dripstone",
+        "bettermineshafts:mineshaft_ice",
+        "bettermineshafts:mineshaft_jungle",
+        "bettermineshafts:mineshaft_lush",
+        "bettermineshafts:mineshaft_mesa",
+        "bettermineshafts:mineshaft_mushroom",
+        "bettermineshafts:mineshaft_oak",
+        "bettermineshafts:mineshaft_overgrown",
+        "bettermineshafts:mineshaft_red_desert",
+        "bettermineshafts:mineshaft_spruce",
+        "bettermineshafts:mineshaft_spruce_snowy"
+      ]
+    },
+    {
+      "tagId": "betteroceanmonuments:better_ocean_monuments",
+      "displayName": "#Better Ocean Monuments",
+      "structureIds": [
+        "betteroceanmonuments:ocean_monument"
+      ]
+    },
+    {
+      "tagId": "betterstrongholds:better_strongholds",
+      "displayName": "#Better Strongholds",
+      "structureIds": [
+        "betterstrongholds:stronghold"
+      ]
+    },
+    {
+      "tagId": "cataclysm:blocked_basalt",
+      "displayName": "#Blocked Basalt",
+      "structureIds": [
+        "cataclysm:burning_arena",
+        "cataclysm:soul_black_smith"
+      ]
+    },
+    {
+      "tagId": "cataclysm:blocked_geode",
+      "displayName": "#Blocked Geode",
+      "structureIds": [
+        "cataclysm:ancient_factory",
+        "cataclysm:cursed_pyramid",
+        "cataclysm:sunken_city"
+      ]
+    },
+    {
+      "tagId": "cataclysm:blocked_lake",
+      "displayName": "#Blocked Lake",
+      "structureIds": [
+        "cataclysm:ancient_factory",
+        "cataclysm:cursed_pyramid",
+        "cataclysm:sunken_city"
+      ]
+    },
+    {
+      "tagId": "cataclysm:blocked_magma_block",
+      "displayName": "#Blocked Magma Block",
+      "structureIds": [
+        "cataclysm:sunken_city"
+      ]
+    },
+    {
+      "tagId": "cataclysm:blocked_multiface",
+      "displayName": "#Blocked Multiface",
+      "structureIds": [
+        "cataclysm:sunken_city"
+      ]
+    },
+    {
+      "tagId": "cataclysm:blocked_ore",
+      "displayName": "#Blocked Ore",
+      "structureIds": [
+        "cataclysm:ancient_factory",
+        "cataclysm:cursed_pyramid",
+        "cataclysm:sunken_city"
+      ]
+    },
+    {
+      "tagId": "cataclysm:eye_of_abyss_located",
+      "displayName": "#Eye Of Abyss Located",
+      "structureIds": [
+        "cataclysm:sunken_city"
+      ]
+    },
+    {
+      "tagId": "cataclysm:eye_of_curse_located",
+      "displayName": "#Eye Of Curse Located",
+      "structureIds": [
+        "cataclysm:frosted_prison"
+      ]
+    },
+    {
+      "tagId": "cataclysm:eye_of_desert_located",
+      "displayName": "#Eye Of Desert Located",
+      "structureIds": [
+        "cataclysm:cursed_pyramid"
+      ]
+    },
+    {
+      "tagId": "cataclysm:eye_of_flame_located",
+      "displayName": "#Eye Of Flame Located",
+      "structureIds": [
+        "cataclysm:burning_arena"
+      ]
+    },
+    {
+      "tagId": "cataclysm:eye_of_mech_located",
+      "displayName": "#Eye Of Mech Located",
+      "structureIds": [
+        "cataclysm:ancient_factory"
+      ]
+    },
+    {
+      "tagId": "cataclysm:eye_of_monstrous_located",
+      "displayName": "#Eye Of Monstrous Located",
+      "structureIds": [
+        "cataclysm:soul_black_smith"
+      ]
+    },
+    {
+      "tagId": "cataclysm:eye_of_ruined_located",
+      "displayName": "#Eye Of Ruined Located",
+      "structureIds": [
+        "cataclysm:ruined_citadel"
+      ]
+    },
+    {
+      "tagId": "cataclysm:eye_of_storm_located",
+      "displayName": "#Eye Of Storm Located",
+      "structureIds": [
+        "cataclysm:acropolis"
+      ]
+    },
+    {
+      "tagId": "alexscaves:gingerbread_men_wander_through",
+      "displayName": "#Gingerbread Men Wander Through",
+      "structureIds": [
+        "alexscaves:gingerbread_town"
+      ]
+    },
+    {
+      "tagId": "twilightforest:landmark",
+      "displayName": "#Landmark",
+      "structureIds": [
+        "twilightforest:aurora_palace",
+        "twilightforest:dark_tower",
+        "twilightforest:final_castle",
+        "twilightforest:hedge_maze",
+        "twilightforest:hydra_lair",
+        "twilightforest:knight_stronghold",
+        "twilightforest:labyrinth",
+        "twilightforest:large_hollow_hill",
+        "twilightforest:lich_tower",
+        "twilightforest:medium_hollow_hill",
+        "twilightforest:mushroom_tower",
+        "twilightforest:naga_courtyard",
+        "twilightforest:quest_grove",
+        "twilightforest:small_hollow_hill",
+        "twilightforest:troll_cave",
+        "twilightforest:yeti_cave"
+      ]
+    },
+    {
+      "tagId": "morevillagers:on_fortress_explorer_maps",
+      "displayName": "#On Fortress Explorer Maps",
+      "structureIds": [
+        "betterfortresses:fortress"
+      ]
+    },
+    {
+      "tagId": "morevillagers:on_jungle_temple_explorer_maps",
+      "displayName": "#On Jungle Temple Explorer Maps",
+      "structureIds": [
+        "betterjungletemples:jungle_temple"
+      ]
+    },
+    {
+      "tagId": "morevillagers:on_mineshaft_explorer_maps",
+      "displayName": "#On Mineshaft Explorer Maps",
+      "structureIds": [
+        "bettermineshafts:mineshaft_acacia",
+        "bettermineshafts:mineshaft_desert",
+        "bettermineshafts:mineshaft_dripstone",
+        "bettermineshafts:mineshaft_ice",
+        "bettermineshafts:mineshaft_jungle",
+        "bettermineshafts:mineshaft_lush",
+        "bettermineshafts:mineshaft_mesa",
+        "bettermineshafts:mineshaft_mushroom",
+        "bettermineshafts:mineshaft_oak",
+        "bettermineshafts:mineshaft_overgrown",
+        "bettermineshafts:mineshaft_red_desert",
+        "bettermineshafts:mineshaft_spruce",
+        "bettermineshafts:mineshaft_spruce_snowy"
+      ]
+    },
+    {
+      "tagId": "morevillagers:on_swamp_hut_explorer_maps",
+      "displayName": "#On Swamp Hut Explorer Maps",
+      "structureIds": [
+        "betterwitchhuts:witch_hut"
+      ]
+    },
+    {
+      "tagId": "prehistoricfauna:on_time_temple_maps",
+      "displayName": "#On Time Temple Maps",
+      "structureIds": [
+        "prehistoricfauna:time_temple"
+      ]
+    },
+    {
+      "tagId": "alexscaves:on_underground_cabin_maps",
+      "displayName": "#On Underground Cabin Maps",
+      "structureIds": [
+        "alexscaves:underground_cabin"
+      ]
+    },
+    {
+      "tagId": "alexsmobs:spawns_underminers",
+      "displayName": "#Spawns Underminers",
+      "structureIds": [
+        "minecraft:mineshaft",
+        "minecraft:mineshaft_mesa",
+        "bettermineshafts:mineshaft_acacia",
+        "bettermineshafts:mineshaft_desert",
+        "bettermineshafts:mineshaft_dripstone",
+        "bettermineshafts:mineshaft_ice",
+        "bettermineshafts:mineshaft_jungle",
+        "bettermineshafts:mineshaft_lush",
+        "bettermineshafts:mineshaft_mesa",
+        "bettermineshafts:mineshaft_mushroom",
+        "bettermineshafts:mineshaft_oak",
+        "bettermineshafts:mineshaft_overgrown",
+        "bettermineshafts:mineshaft_red_desert",
+        "bettermineshafts:mineshaft_spruce",
+        "bettermineshafts:mineshaft_spruce_snowy"
+      ]
+    },
+    {
+      "tagId": "supplementaries:way_sign_destinations",
+      "displayName": "#Way Sign Destinations",
+      "structureIds": [
+        "minecraft:village_desert",
+        "minecraft:village_plains",
+        "minecraft:village_savanna",
+        "minecraft:village_snowy",
+        "minecraft:village_taiga"
+      ]
+    }
+  ]
+}
