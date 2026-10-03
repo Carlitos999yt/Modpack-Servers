@@ -1,0 +1,4 @@
+﻿# Parche de opciones generado automáticamente para GitHub
+# Total de variables a forzar: 2
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","create_central_kitchen:create_styled","railways:green_signals","file/MandalasGUI+Dakmode_1.21.6_v2.1.zip","supplementaries:darker_ropes"]
+incompatibleResourcePacks:["file/MandalasGUI+Dakmode_1.21.6_v2.1.zip"]
