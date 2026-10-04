@@ -5,12 +5,29 @@ check_for_updates = true
 [activations.4aec07ba-d109-3345-9a0a-92022a116cd0]
 type = "VOICE"
 toggle = false
-key_bindings = []
+
+[[key_bindings]]
+keys = ["key.keyboard.c"]
+name = "key.plasmovoice.general.mute_microphone"
+any_context = false
+category = "key.plasmovoice.general"
+
+[[key_bindings]]
+keys = ["key.keyboard.k"]
+name = "key.plasmovoice.general.disable_voice"
+any_context = false
+category = "key.plasmovoice.general"
+
+[[key_bindings]]
+keys = []
+name = "key.plasmovoice.general.action"
+any_context = false
+category = "key.plasmovoice.general"
 
 [voice]
 disabled = false
 microphone_disabled = false
-activation_threshold = -30.0
+activation_threshold = -49.0
 input_device = ""
 output_device = ""
 disable_input_device = false

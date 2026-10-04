@@ -30,9 +30,7 @@
       "id": "minecraft:ancient_city",
       "displayName": "Ancient City",
       "isVanilla": true,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "minecraft:bastion_remnant",
@@ -46,17 +44,13 @@
       "id": "minecraft:buried_treasure",
       "displayName": "Buried Treasure",
       "isVanilla": true,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "minecraft:desert_pyramid",
       "displayName": "Desert Pyramid",
       "isVanilla": true,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "minecraft:end_city",
@@ -78,25 +72,19 @@
       "id": "minecraft:igloo",
       "displayName": "Igloo",
       "isVanilla": true,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "minecraft:jungle_pyramid",
       "displayName": "Jungle Pyramid",
       "isVanilla": true,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "minecraft:mansion",
       "displayName": "Mansion",
       "isVanilla": true,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "minecraft:mineshaft",
@@ -111,9 +99,7 @@
       "id": "minecraft:mineshaft_mesa",
       "displayName": "Mineshaft Mesa",
       "isVanilla": true,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "minecraft:monument",
@@ -137,17 +123,14 @@
       "displayName": "Ocean Ruin Cold",
       "isVanilla": true,
       "dimensions": [
-        "alex_caves_dimensions:abyssal_chasm",
-        "minecraft:overworld"
+        "alex_caves_dimensions:abyssal_chasm"
       ]
     },
     {
       "id": "minecraft:ocean_ruin_warm",
       "displayName": "Ocean Ruin Warm",
       "isVanilla": true,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "minecraft:pillager_outpost",
@@ -169,25 +152,19 @@
       "id": "minecraft:ruined_portal_desert",
       "displayName": "Ruined Portal Desert",
       "isVanilla": true,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "minecraft:ruined_portal_jungle",
       "displayName": "Ruined Portal Jungle",
       "isVanilla": true,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "minecraft:ruined_portal_mountain",
       "displayName": "Ruined Portal Mountain",
       "isVanilla": true,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "minecraft:ruined_portal_nether",
@@ -210,9 +187,7 @@
       "id": "minecraft:ruined_portal_swamp",
       "displayName": "Ruined Portal Swamp",
       "isVanilla": true,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "minecraft:shipwreck",
@@ -227,9 +202,7 @@
       "id": "minecraft:shipwreck_beached",
       "displayName": "Shipwreck Beached",
       "isVanilla": true,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "minecraft:stronghold",
@@ -244,25 +217,19 @@
       "id": "minecraft:swamp_hut",
       "displayName": "Swamp Hut",
       "isVanilla": true,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "minecraft:trail_ruins",
       "displayName": "Trail Ruins",
       "isVanilla": true,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "minecraft:village_desert",
       "displayName": "Village Desert",
       "isVanilla": true,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "minecraft:village_plains",
@@ -276,25 +243,19 @@
       "id": "minecraft:village_savanna",
       "displayName": "Village Savanna",
       "isVanilla": true,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "minecraft:village_snowy",
       "displayName": "Village Snowy",
       "isVanilla": true,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "minecraft:village_taiga",
       "displayName": "Village Taiga",
       "isVanilla": true,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "ad_astra:lunar_tower",
@@ -375,7 +336,8 @@
       "displayName": "Abyssal Ruins",
       "isVanilla": false,
       "dimensions": [
-        "alex_caves_dimensions:abyssal_chasm"
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
       ]
     },
     {
@@ -383,7 +345,8 @@
       "displayName": "Acid Pit",
       "isVanilla": false,
       "dimensions": [
-        "alex_caves_dimensions:toxic_caves"
+        "alex_caves_dimensions:toxic_caves",
+        "minecraft:overworld"
       ]
     },
     {
@@ -391,6 +354,7 @@
       "displayName": "Cake Cave",
       "isVanilla": false,
       "dimensions": [
+        "minecraft:overworld",
         "alex_caves_dimensions:candy_cavity"
       ]
     },
@@ -399,7 +363,8 @@
       "displayName": "Dino Bowl",
       "isVanilla": false,
       "dimensions": [
-        "alex_caves_dimensions:primordial_caves"
+        "alex_caves_dimensions:primordial_caves",
+        "minecraft:overworld"
       ]
     },
     {
@@ -407,6 +372,7 @@
       "displayName": "Donut Arch",
       "isVanilla": false,
       "dimensions": [
+        "minecraft:overworld",
         "alex_caves_dimensions:candy_cavity"
       ]
     },
@@ -415,7 +381,8 @@
       "displayName": "Ferrocave",
       "isVanilla": false,
       "dimensions": [
-        "alex_caves_dimensions:magnetic_caves"
+        "alex_caves_dimensions:magnetic_caves",
+        "minecraft:overworld"
       ]
     },
     {
@@ -423,7 +390,8 @@
       "displayName": "Forlorn Bridge",
       "isVanilla": false,
       "dimensions": [
-        "alex_caves_dimensions:forlorn_hollows"
+        "alex_caves_dimensions:forlorn_hollows",
+        "minecraft:overworld"
       ]
     },
     {
@@ -431,7 +399,8 @@
       "displayName": "Forlorn Canyon",
       "isVanilla": false,
       "dimensions": [
-        "alex_caves_dimensions:forlorn_hollows"
+        "alex_caves_dimensions:forlorn_hollows",
+        "minecraft:overworld"
       ]
     },
     {
@@ -439,6 +408,7 @@
       "displayName": "Gingerbread Town",
       "isVanilla": false,
       "dimensions": [
+        "minecraft:overworld",
         "alex_caves_dimensions:candy_cavity"
       ]
     },
@@ -447,6 +417,7 @@
       "displayName": "Licowitch Tower",
       "isVanilla": false,
       "dimensions": [
+        "minecraft:overworld",
         "alex_caves_dimensions:candy_cavity"
       ]
     },
@@ -455,7 +426,8 @@
       "displayName": "Ocean Trench",
       "isVanilla": false,
       "dimensions": [
-        "alex_caves_dimensions:abyssal_chasm"
+        "alex_caves_dimensions:abyssal_chasm",
+        "minecraft:overworld"
       ]
     },
     {
@@ -463,6 +435,7 @@
       "displayName": "Soda Bottle",
       "isVanilla": false,
       "dimensions": [
+        "minecraft:overworld",
         "alex_caves_dimensions:candy_cavity"
       ]
     },
@@ -480,16 +453,15 @@
       "displayName": "Volcano",
       "isVanilla": false,
       "dimensions": [
-        "alex_caves_dimensions:primordial_caves"
+        "alex_caves_dimensions:primordial_caves",
+        "minecraft:overworld"
       ]
     },
     {
       "id": "betterdeserttemples:desert_temple",
       "displayName": "Desert Temple",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "betterdungeons:skeleton_dungeon",
@@ -543,73 +515,55 @@
       "id": "betterjungletemples:jungle_temple",
       "displayName": "Jungle Temple",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "bettermineshafts:mineshaft_acacia",
       "displayName": "Mineshaft Acacia",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "bettermineshafts:mineshaft_desert",
       "displayName": "Mineshaft Desert",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "bettermineshafts:mineshaft_dripstone",
       "displayName": "Mineshaft Dripstone",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "bettermineshafts:mineshaft_ice",
       "displayName": "Mineshaft Ice",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "bettermineshafts:mineshaft_jungle",
       "displayName": "Mineshaft Jungle",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "bettermineshafts:mineshaft_lush",
       "displayName": "Mineshaft Lush",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "bettermineshafts:mineshaft_mesa",
       "displayName": "Mineshaft Mesa",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "bettermineshafts:mineshaft_mushroom",
       "displayName": "Mineshaft Mushroom",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "bettermineshafts:mineshaft_oak",
@@ -623,33 +577,25 @@
       "id": "bettermineshafts:mineshaft_overgrown",
       "displayName": "Mineshaft Overgrown",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "bettermineshafts:mineshaft_red_desert",
       "displayName": "Mineshaft Red Desert",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "bettermineshafts:mineshaft_spruce",
       "displayName": "Mineshaft Spruce",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "bettermineshafts:mineshaft_spruce_snowy",
       "displayName": "Mineshaft Spruce Snowy",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "betteroceanmonuments:ocean_monument",
@@ -672,65 +618,49 @@
       "id": "betterwitchhuts:witch_circle",
       "displayName": "Witch Circle",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "betterwitchhuts:witch_hut",
       "displayName": "Witch Hut",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "cataclysm:abandoned_spire",
       "displayName": "Abandoned Spire",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "cataclysm:abandoned_temple",
       "displayName": "Abandoned Temple",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "cataclysm:abandoned_village",
       "displayName": "Abandoned Village",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "cataclysm:acropolis",
       "displayName": "Acropolis",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "cataclysm:amethyst_nest",
       "displayName": "Amethyst Nest",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "cataclysm:ancient_factory",
       "displayName": "Ancient Factory",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "cataclysm:burning_arena",
@@ -744,33 +674,25 @@
       "id": "cataclysm:cursed_pyramid",
       "displayName": "Cursed Pyramid",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "cataclysm:desert_occupied_village",
       "displayName": "Desert Occupied Village",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "cataclysm:desert_site",
       "displayName": "Desert Site",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "cataclysm:frosted_prison",
       "displayName": "Frosted Prison",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "cataclysm:ruined_citadel",
@@ -793,8 +715,7 @@
       "displayName": "Sunken City",
       "isVanilla": false,
       "dimensions": [
-        "alex_caves_dimensions:abyssal_chasm",
-        "minecraft:overworld"
+        "alex_caves_dimensions:abyssal_chasm"
       ]
     },
     {
@@ -1116,33 +1037,25 @@
       "id": "roadweaver:wood_bridge_jinhehuan",
       "displayName": "Wood Bridge Jinhehuan",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "roadweaver:wood_bridge_shensexiangmu",
       "displayName": "Wood Bridge Shensexiangmu",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "roadweaver:wood_bridge_yinghuamu",
       "displayName": "Wood Bridge Yinghuamu",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "roadweaver:wood_bridge_zhuzi",
       "displayName": "Wood Bridge Zhuzi",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
+      "dimensions": []
     },
     {
       "id": "supplementaries:way_sign",

@@ -160,10 +160,6 @@
     "size": 58508
   },
   {
-    "name": "LuckPerms-Forge-5.4.102.jar",
-    "size": 1398478
-  },
-  {
     "name": "Mekanism-1.20.1-10.4.16.80.jar",
     "size": 12558456
   },
@@ -222,6 +218,10 @@
   {
     "name": "Tips-Forge-1.20.1-12.1.9.jar",
     "size": 127186
+  },
+  {
+    "name": "ToolsCarlos-1.20.1-1.1.0.jar",
+    "size": 77420
   },
   {
     "name": "UniLib-1.2.1+1.20.1-forge.jar",
@@ -356,6 +356,10 @@
     "size": 157633
   },
   {
+    "name": "cagedmobs-1.20.1-forge-2.0.5.jar",
+    "size": 577983
+  },
+  {
     "name": "camera-forge-1.20.1-1.0.20.jar",
     "size": 299727
   },
@@ -384,8 +388,8 @@
     "size": 187272
   },
   {
-    "name": "collective-1.20.1-8.40.jar",
-    "size": 745947
+    "name": "collective-1.20.1-8.41.jar",
+    "size": 745905
   },
   {
     "name": "comforts-forge-6.4.0+1.20.1.jar",
@@ -524,24 +528,20 @@
     "size": 573928
   },
   {
-    "name": "defaultoptions-forge-1.20.1-18.0.5.jar",
-    "size": 101393
-  },
-  {
     "name": "dynamic-fps-3.11.4+minecraft-1.20.0-forge.jar",
     "size": 402345
   },
   {
-    "name": "easy_npc-forge-1.20.1-7.13.1.jar",
-    "size": 2975579
+    "name": "easy_npc-forge-1.20.1-7.14.0.jar",
+    "size": 2975561
   },
   {
-    "name": "easy_npc_bundle-forge-1.20.1-7.13.1.jar",
-    "size": 25440
+    "name": "easy_npc_bundle-forge-1.20.1-7.14.0.jar",
+    "size": 25443
   },
   {
-    "name": "easy_npc_config_ui-forge-1.20.1-7.13.1.jar",
-    "size": 1132061
+    "name": "easy_npc_config_ui-forge-1.20.1-7.14.0.jar",
+    "size": 1140305
   },
   {
     "name": "elevatorid-1.20.1-1.9.1-forge.jar",
@@ -660,8 +660,8 @@
     "size": 2232172
   },
   {
-    "name": "justzoom_forge_2.1.1_MC_1.20.1.jar",
-    "size": 204574
+    "name": "justzoom_forge_3.0.0_MC_1.20.1.jar",
+    "size": 340021
   },
   {
     "name": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
@@ -728,24 +728,24 @@
     "size": 227925
   },
   {
-    "name": "mezz_config-1.20.1-forge-0.6.6.jar",
-    "size": 348337
+    "name": "mezz_config-1.20.1-forge-0.6.8.jar",
+    "size": 364842
   },
   {
     "name": "mighty_mail-forge-1.20.1-1.1.4.jar",
     "size": 200235
   },
   {
-    "name": "modernfix-forge-5.27.83+mc1.20.1.jar",
-    "size": 1003230
+    "name": "modernfix-forge-5.27.85+mc1.20.1.jar",
+    "size": 1003271
   },
   {
     "name": "modfixer-0.0.7.jar",
     "size": 359147
   },
   {
-    "name": "monolib-forge-1.20.1-4.1.0.jar",
-    "size": 195958
+    "name": "monolib-forge-1.20.1-4.1.2.jar",
+    "size": 195066
   },
   {
     "name": "monsters_level_up-1.4-forge-1.20.1.jar",

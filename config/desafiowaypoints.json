@@ -1,0 +1,30 @@
+{
+  "waypoints": [
+    {
+      "id": "CAR",
+      "name": "Bunker",
+      "initials": "?",
+      "x": -35,
+      "y": -59,
+      "z": 2,
+      "colorIndex": 15,
+      "hexColor": -1,
+      "dimension": "minecraft:overworld",
+      "global": true,
+      "ownerUUID": "62c95a06-132b-4524-a8c5-30e40b845f69",
+      "ownerName": "carlitos999yt"
+    },
+    {
+      "id": "CRLOS",
+      "name": "Bunker",
+      "initials": "?",
+      "x": -41,
+      "y": -58,
+      "z": -7,
+      "colorIndex": 15,
+      "hexColor": -1,
+      "dimension": "minecraft:overworld",
+      "global": true
+    }
+  ]
+}
