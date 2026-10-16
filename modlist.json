@@ -88,6 +88,10 @@
     "size": 2805930
   },
   {
+    "name": "DEDSAFIO4-1.0.0-Forge.jar",
+    "size": 167246300
+  },
+  {
     "name": "Delightful-1.20.1-3.8.1.jar",
     "size": 1774007
   },
@@ -106,6 +110,10 @@
   {
     "name": "Fastload-Reforged-mc1.20.1-3.4.0.jar",
     "size": 66989
+  },
+  {
+    "name": "Forgematica-0.1.13-mc1.20.1.jar",
+    "size": 997501
   },
   {
     "name": "FramedBlocks-9.4.3.jar",
@@ -158,6 +166,10 @@
   {
     "name": "Log-Begone-Forge-1.20.1-1.0.8.jar",
     "size": 58508
+  },
+  {
+    "name": "MaFgLib-0.1.14-mc1.20.1.jar",
+    "size": 521709
   },
   {
     "name": "Mekanism-1.20.1-10.4.16.80.jar",
@@ -524,6 +536,10 @@
     "size": 398066
   },
   {
+    "name": "customskyboxes-forge-mc1.20.1-1.0.4.jar",
+    "size": 482473
+  },
+  {
     "name": "decorative_blocks-forge-1.20.1-4.1.3.jar",
     "size": 573928
   },
@@ -564,8 +580,8 @@
     "size": 894817
   },
   {
-    "name": "entityculling-forge-1.11.2-mc1.20.1.jar",
-    "size": 1515048
+    "name": "entityculling-forge-1.11.3-mc1.20.1.jar",
+    "size": 1515076
   },
   {
     "name": "escalated-1.2.1-create.6.0.8-mc.1.20.1-forge.jar",
@@ -600,7 +616,7 @@
     "size": 688625
   },
   {
-    "name": "fusion-1.3.15b-forge-mc1.20.1.jar",
+    "name": "fusion-1.3.16-forge-mc1.20.1.jar",
     "size": 972917
   },
   {
@@ -628,8 +644,8 @@
     "size": 1739059
   },
   {
-    "name": "iceandfire-2.1.13-1.20.1-beta-5.jar",
-    "size": 21854126
+    "name": "iceandfire-1.0.3.jar",
+    "size": 21806804
   },
   {
     "name": "immersive_optimization-forge-1.20.1-0.2.0.jar",
@@ -658,10 +674,6 @@
   {
     "name": "jei-1.20.1-forge-15.62.0.217.jar",
     "size": 2232172
-  },
-  {
-    "name": "justzoom_forge_3.0.0_MC_1.20.1.jar",
-    "size": 340021
   },
   {
     "name": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
@@ -736,8 +748,8 @@
     "size": 200235
   },
   {
-    "name": "modernfix-forge-5.27.85+mc1.20.1.jar",
-    "size": 1003271
+    "name": "modernfix-forge-5.27.88+mc1.20.1.jar",
+    "size": 1009661
   },
   {
     "name": "modfixer-0.0.7.jar",
@@ -840,6 +852,10 @@
     "size": 1508496
   },
   {
+    "name": "simplezoom-forge-1.20.1-1.0.1.jar",
+    "size": 79953
+  },
+  {
     "name": "skin_changer-forge-1.20.1-0.6.6.jar",
     "size": 60904
   },
@@ -902,6 +918,10 @@
   {
     "name": "tfmg-1.0.2f.jar",
     "size": 5343749
+  },
+  {
+    "name": "tfmg-1.0.3.jar",
+    "size": 5245978
   },
   {
     "name": "titanium-1.20.1-3.8.35.jar",
